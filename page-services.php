@@ -15,13 +15,13 @@ get_header();
   <div class="container lux-hero-inner">
     <span class="eyebrow reveal">Our Services</span>
     <h1 class="reveal">Five ways we bring <span class="accent">North Carolina families home.</span></h1>
-    <p class="reveal">One licensed team, five bond types, one hundred counties. Whatever the charge, we have written the paperwork before — and we know how to move it fast.</p>
+    <p class="reveal">One licensed team, five bond types, one hundred counties. Whatever the charge, we have written the paperwork before and we know how to move it fast.</p>
     <div class="hero-cta">
       <a href="tel:+9107822422" class="btn btn-primary">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         Call 910-782-2422
       </a>
-      <a href="#toc" class="btn btn-ghost">Explore Services
+      <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost">Explore Services
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
     </div>
@@ -45,7 +45,7 @@ get_header();
       <span class="eyebrow">The full menu</span>
       <h2>Every bond written under one roof.</h2>
       <div class="divider"></div>
-      <p>Tap any service to jump to a full breakdown, or scroll straight through — we've written each section for the people actually reading it at 2 a.m.</p>
+      <p>Tap any service to jump to a full breakdown, or scroll straight through we've written each section for the people actually reading it at 2 a.m.</p>
     </div>
     <div class="toc-chips">
       <a class="toc-chip" href="#traffic-bail-bonds"><span>Traffic Bail Bonds</span></a>
@@ -65,12 +65,12 @@ get_header();
       <span class="eyebrow">DWI · Reckless · License</span>
       <h2>Traffic Bail Bonds</h2>
       <div class="divider"></div>
-      <p>From a first-offense DWI to a habitual-offender reckless-driving charge, our traffic bond team keeps drivers behind the wheel of their own lives — not stranded in a holding cell.</p>
+      <p>From a first-offense DWI to a habitual-offender reckless-driving charge, our traffic bond team keeps drivers behind the wheel of their own lives not stranded in a holding cell.</p>
       <ul class="check-list">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>DWI / DUI first-offense and repeat charges</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Reckless driving and speeding felonies</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Driving while license revoked (DWLR)</span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Hit and run — property and injury</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Hit and run property and injury</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Habitual traffic offender bonds</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>No operator's license and expired registration</span></li>
       </ul>
@@ -89,12 +89,12 @@ get_header();
       <div class="divider"></div>
       <p>Domestic violence charges move through a 48-hour magistrate hold in North Carolina. We understand the timeline, the no-contact conditions, and how to bring dignity back to a very hard moment.</p>
       <ul class="check-list">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>50B protective-order violations</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>50B protective order violations</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Assault on a female (misdemeanor & felony)</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Communicating threats</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Cyberstalking and harassment</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Interfering with emergency communication</span></li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Second- and subsequent-offense enhancements</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Second and subsequent-offense enhancements</span></li>
       </ul>
       <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-ghost">Request Callback</a></div>
     </div>
@@ -109,7 +109,7 @@ get_header();
       <span class="eyebrow">Court-guaranteed release</span>
       <h2>Appearance Bonds</h2>
       <div class="divider"></div>
-      <p>An appearance bond is your written promise — backed by our surety — that a defendant will show up to every court date. It is the most common bond written across North Carolina district and superior courts.</p>
+      <p>An appearance bond is your written promise — backed by our surety that a defendant will show up to every court date. It is the most common bond written across North Carolina district and superior courts.</p>
       <ul class="check-list">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Written promise + secured collateral options</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Cash bonds and property bonds</span></li>

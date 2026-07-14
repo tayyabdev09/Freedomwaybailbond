@@ -40,33 +40,46 @@
     </a>
 
     <nav class="nav-links" aria-label="Primary">
-      <a class="nl active" href="<?php echo esc_url(home_url('/')); ?>">Home</a>
-      <a class="nl" href="<?php echo esc_url(home_url('/about-us')); ?>">About Us</a>
+      <!-- Home Link Active Condition -->
+      <a class="nl <?php echo (is_front_page() && !is_paged()) ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/')); ?>">Home</a>
+      
+      <!-- About Us Link Active Condition -->
+      <a class="nl <?php echo is_page('about-us') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/about-us/')); ?>">About Us</a>
 
       <!-- SERVICES DROPDOWN -->
       <div class="has-drop">
-        <button class="nl" aria-haspopup="true" aria-expanded="false">
+        <?php 
+        $is_services_active = is_page(array(
+            'services', 
+            'traffic-bond-services', 
+            'domestic-violence-bail-bonds', 
+            'appearance-bonds', 
+            'surety-bond-nc', 
+            '24-7-bail-bonds'
+        ));
+        ?>
+        <button class="nl <?php echo $is_services_active ? 'active' : ''; ?>" aria-haspopup="true" aria-expanded="false">
          <a href="<?php echo esc_url(home_url('/services/')); ?>"> Services</a>
           <svg class="drop-caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="dropdown" role="menu">
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">
+          <a class="drop-item <?php echo is_page('traffic-bond-services') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"/><circle cx="6.5" cy="16.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Traffic Bail Bonds</span></div><span class="dt-sub">DWI, reckless driving, license suspension</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/domestic-violence-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('domestic-violence-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/domestic-violence-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Domestic Violence Bonds</span></div><span class="dt-sub">Discreet, judgment-free representation</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/appearance-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('appearance-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/appearance-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="15" y2="15"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Appearance Bonds</span></div><span class="dt-sub">Guaranteed court appearance</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/surety-bond-nc/')); ?>">
+          <a class="drop-item <?php echo is_page('surety-bond-nc') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/surety-bond-nc/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Surety Bonds</span></div><span class="dt-sub">State-licensed surety across NC</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/24-7-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('24-7-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/24-7-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">24/7 Bail Bonds</span></div><span class="dt-sub">Emergency response, day or night</span></span>
           </a>
@@ -75,48 +88,67 @@
 
       <!-- AREAS SERVED DROPDOWN -->
       <div class="has-drop">
-        <button class="nl" aria-haspopup="true" aria-expanded="false">
-          
+        <?php 
+        $is_areas_active = is_page(array(
+            'areas-we-serve', 
+            'wilmington-nc-bail-bonds', 
+            'burgaw-pender-county-nc-bail-bonds', 
+            'bolivia-nc-bail-bonds', 
+            'raleigh-nc-bail-bonds', 
+            'whiteville-nc-bail-bonds', 
+            'clinton-nc-bail-bonds', 
+            'kenansville-nc-bail-bonds', 
+            'fayetteville-nc-bail-bonds'
+        ));
+        ?>
+        <button class="nl <?php echo $is_areas_active ? 'active' : ''; ?>" aria-haspopup="true" aria-expanded="false">
            <a href="<?php echo esc_url(home_url('/areas-we-serve/')); ?>"> Areas We Serve</a>
           <svg class="drop-caret" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="dropdown served-areas-dropdown" role="menu">
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/wilmington-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('wilmington-nc-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/wilmington-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Wilmington</span></div><span class="dt-sub">New Hanover County</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/burgaw-pender-county-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('burgaw-pender-county-nc-bail-bonds) ? \'active\' : \'\';') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/burgaw-pender-county-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Burgaw</span></div><span class="dt-sub">Pender County</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/bolivia-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('bolivia-nc-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/bolivia-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Bolivia</span></div><span class="dt-sub">Brunswick County</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/raleigh-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('raleigh-nc-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/raleigh-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Raleigh</span></div><span class="dt-sub">Wake County</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/whiteville-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('whiteville-nc-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/whiteville-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Whiteville</span></div><span class="dt-sub">Columbus County</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/clinton-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('clinton-nc-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/clinton-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Clinton</span></div><span class="dt-sub">Sampson County</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/kenansville-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('kenansville-nc-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/kenansville-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Kenansville</span></div><span class="dt-sub">Duplin County</span></span>
           </a>
-          <a class="drop-item" role="menuitem" href="<?php echo esc_url(home_url('/fayetteville-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('fayetteville-nc-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/fayetteville-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Fayetteville</span></div><span class="dt-sub">Cumberland County</span></span>
           </a>
         </div>
       </div>
-        <a class="nl" href="<?php echo esc_url(home_url('/blog')); ?>">Blog</a>
-        <a class="nl" href="<?php echo esc_url(home_url('/contact-us')); ?>">Contact Us</a>
+
+      <!-- Blog Link Active Condition (includes category/archive/single posts) -->
+      <?php 
+      $is_blog_active = (is_home() && !is_front_page()) || is_singular('post') || is_category() || is_tag() || is_archive();
+      ?>
+      <a class="nl <?php echo $is_blog_active ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/blog/')); ?>">Blog</a>
+      
+      <!-- Contact Us Link Active Condition -->
+      <a class="nl <?php echo is_page('contact-us') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/contact-us/')); ?>">Contact Us</a>
     </nav>
 
     <div class="nav-cta">
@@ -141,39 +173,39 @@
       </button>
     </div>
     <div class="mobile-links">
-      <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
-      <a class="nl" href="<?php echo esc_url(home_url('/about-us')); ?>">About Us</a>
+      <a class="<?php echo (is_front_page() && !is_paged()) ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/')); ?>">Home</a>
+      <a class="nl <?php echo is_page('about-us') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/about-us/')); ?>">About Us</a>
 
       <!-- MOBILE SERVICES ACCORDION -->
-      <button class="mlbtn" data-msub="#msvc">
+      <button class="mlbtn <?php echo $is_services_active ? 'active' : ''; ?>" data-msub="#msvc">
         Services
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="msub" id="msvc">
-        <a href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">Traffic Bail Bonds</a>
-        <a href="<?php echo esc_url(home_url('/domestic-violence-bail-bonds/')); ?>">Domestic Violence Bail Bonds</a>
-        <a href="<?php echo esc_url(home_url('/appearance-bonds/')); ?>">Appearance Bonds</a>
-        <a href="<?php echo esc_url(home_url('/surety-bond-nc/')); ?>">Surety Bonds</a>
-        <a href="<?php echo esc_url(home_url('/24-7-bail-bonds/')); ?>">24/7 Bail Bonds</a>
+        <a class="<?php echo is_page('traffic-bond-services') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">Traffic Bail Bonds</a>
+        <a class="<?php echo is_page('domestic-violence-bail-bonds) ? \'active\' : \'\';') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/domestic-violence-bail-bonds/')); ?>">Domestic Violence Bail Bonds</a>
+        <a class="<?php echo is_page('appearance-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/appearance-bonds/')); ?>">Appearance Bonds</a>
+        <a class="<?php echo is_page('surety-bond-nc') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/surety-bond-nc/')); ?>">Surety Bonds</a>
+        <a class="<?php echo is_page('24-7-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/24-7-bail-bonds/')); ?>">24/7 Bail Bonds</a>
       </div>
 
       <!-- MOBILE AREAS ACCORDION -->
-      <button class="mlbtn" data-msub="#mrec">
+      <button class="mlbtn <?php echo $is_areas_active ? 'active' : ''; ?>" data-msub="#mrec">
         Areas We Serve
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="msub" id="mrec">
-        <a href="<?php echo esc_url(home_url('/wilmington-nc-bail-bonds/')); ?>">Wilmington</a>
-        <a href="<?php echo esc_url(home_url('/burgaw-pender-county-nc-bail-bonds/')); ?>">Burgaw</a>
-        <a href="<?php echo esc_url(home_url('/bolivia-nc-bail-bonds/')); ?>">Bolivia</a>
-        <a href="<?php echo esc_url(home_url('/raleigh-nc-bail-bonds/')); ?>">Raleigh</a>
-        <a href="<?php echo esc_url(home_url('/whiteville-nc-bail-bonds/')); ?>">Whiteville</a>
-        <a href="<?php echo esc_url(home_url('/clinton-nc-bail-bonds/')); ?>">Clinton</a>
-        <a href="<?php echo esc_url(home_url('/kenansville-nc-bail-bonds/')); ?>">Kenansville</a>
-        <a href="<?php echo esc_url(home_url('/fayetteville-nc-bail-bonds/')); ?>">Fayetteville</a>
+        <a class="<?php echo is_page('wilmington-nc-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/wilmington-nc-bail-bonds/')); ?>">Wilmington</a>
+        <a class="<?php echo is_page('burgaw-pender-county-nc-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/burgaw-pender-county-nc-bail-bonds/')); ?>">Burgaw</a>
+        <a class="<?php echo is_page('bolivia-nc-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/bolivia-nc-bail-bonds/')); ?>">Bolivia</a>
+        <a class="<?php echo is_page('raleigh-nc-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/raleigh-nc-bail-bonds/')); ?>">Raleigh</a>
+        <a class="<?php echo is_page('whiteville-nc-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/whiteville-nc-bail-bonds/')); ?>">Whiteville</a>
+        <a class="<?php echo is_page('clinton-nc-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/clinton-nc-bail-bonds/')); ?>">Clinton</a>
+        <a class="<?php echo is_page('kenansville-nc-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/kenansville-nc-bail-bonds/')); ?>">Kenansville</a>
+        <a class="<?php echo is_page('fayetteville-nc-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/fayetteville-nc-bail-bonds/')); ?>">Fayetteville</a>
       </div>
-      <a class="nl" href="<?php echo esc_url(home_url('/blog')); ?>">Blog</a>
-      <a class="nl" href="<?php echo esc_url(home_url('/contact-us')); ?>">Contact Us</a>
+      <a class="nl <?php echo $is_blog_active ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/blog/')); ?>">Blog</a>
+      <a class="nl <?php echo is_page('contact-us') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/contact-us/')); ?>">Contact Us</a>
 
       <a href="tel:+9107822422" class="btn btn-primary" style="justify-content:center;margin-top:14px">Call 910-782-2422</a>
     </div>

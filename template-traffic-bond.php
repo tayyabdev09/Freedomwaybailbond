@@ -16,13 +16,13 @@ get_header();
   <div class="container lux-hero-inner">
     <span class="eyebrow reveal">DWI · Reckless · License</span>
     <h1 class="reveal">Traffic Bail Bonds <span class="accent">across North Carolina.</span></h1>
-    <p class="reveal">From a first-offense DWI to a habitual-offender reckless-driving charge, our traffic bond team keeps drivers behind the wheel of their own lives — not stranded in a holding cell.</p>
+    <p class="reveal">From a first-offense DWI to a habitual-offender reckless-driving charge, our traffic bond team keeps drivers behind the wheel of their own lives not stranded in a holding cell.</p>
      <div class="hero-cta">
         <a href="tel:+9107822422" class="btn btn-primary">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           Call 910-782-2422
         </a>
-        <a href="#definition" class="btn btn-ghost">Explore Services
+        <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost">Explore Services
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
@@ -46,7 +46,7 @@ get_header();
       <span class="eyebrow">01 · What it is</span>
       <h2>Understanding a traffic bail bonds.</h2>
       <div class="divider"></div>
-      <p>From a first-offense DWI to a habitual-offender reckless-driving charge, our traffic bond team keeps drivers behind the wheel of their own lives — not stranded in a holding cell.</p>
+      <p>From a first-offense DWI to a habitual-offender reckless-driving charge, our traffic bond team keeps drivers behind the wheel of their own lives not stranded in a holding cell.</p>
       <p>Every case has its own texture. What stays constant is the mechanics of the bond, the timing of the paperwork, and the quiet urgency of a family trying to bring their person home. We handle the paperwork so you can handle the hard part.</p>
     </div>
     <div class="glass-card reveal">
@@ -58,7 +58,7 @@ get_header();
         <li><span>Backed by</span><strong>A-rated national surety</strong></li>
         <li><span>License</span><strong>NC DOI</strong></li>
       </ul>
-      <a href="tel:+19105990868" class="btn btn-primary" style="width:100%; justify-content:center; margin-top:8px;">Speak to a bondsman</a>
+      <a href="tel:+9107822422" class="btn btn-primary" style="width:100%; justify-content:center; margin-top:8px;">Speak to a bondsman</a>
     </div>
   </div>
 </section>
@@ -75,7 +75,7 @@ get_header();
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>DWI / DUI first-offense and repeat charges</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Reckless driving and speeding felonies</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Driving while license revoked (DWLR)</span></li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Hit and run — property and injury</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Hit and run property and injury</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Habitual traffic offender bonds</span></li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>No operator's license and expired registration</span></li>
     </ul>
@@ -106,7 +106,7 @@ get_header();
       <span class="eyebrow">04 · Cost &amp; payment</span>
       <h2 style="color:#fff">Transparent premium. Flexible plans.</h2>
       <div class="divider"></div>
-      <p style="color:#d8dbe3">North Carolina statute caps bail bond premiums as a percentage of the bond's face value. We publish our rate up front, put it in writing, and never invent add-on fees at closing. Payment plans are available on the majority of bonds — we structure the terms around what your household can actually carry.</p>
+      <p style="color:#d8dbe3">North Carolina statute caps bail bond premiums as a percentage of the bond's face value. We publish our rate up front, put it in writing, and never invent add-on fees at closing. Payment plans are available on the majority of bonds we structure the terms around what your household can actually carry.</p>
       <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-white">Get a written quote</a>
     </div>
     <div class="glass-card glass-dark reveal">
@@ -132,14 +132,14 @@ get_header();
       <p>Tap a city to see the local bond page, jail info and typical release times.</p>
     </div>
     <div class="area-mini-grid">
-      <a href="<?php echo esc_url( home_url( '/area-wilmington/' ) ); ?>" class="area-mini"><strong>Wilmington</strong><span>New Hanover County</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-burgaw/' ) ); ?>" class="area-mini"><strong>Burgaw</strong><span>Pender County</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-bolivia/' ) ); ?>" class="area-mini"><strong>Bolivia</strong><span>Brunswick County</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-raleigh/' ) ); ?>" class="area-mini"><strong>Raleigh</strong><span>Wake County</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-whiteville/' ) ); ?>" class="area-mini"><strong>Whiteville</strong><span>Columbus County</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-clinton/' ) ); ?>" class="area-mini"><strong>Clinton</strong><span>Sampson County</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-kenansville/' ) ); ?>" class="area-mini"><strong>Kenansville</strong><span>Duplin County</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-fayetteville/' ) ); ?>" class="area-mini"><strong>Fayetteville</strong><span>Cumberland County</span></a>
+      <a href="<?php echo esc_url( home_url( '/wilmington-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Wilmington</strong><span>New Hanover County</span></a>
+      <a href="<?php echo esc_url( home_url( '/burgaw-pender-county-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Burgaw</strong><span>Pender County</span></a>
+      <a href="<?php echo esc_url( home_url( '/bolivia-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Bolivia</strong><span>Brunswick County</span></a>
+      <a href="<?php echo esc_url( home_url( '/raleigh-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Raleigh</strong><span>Wake County</span></a>
+      <a href="<?php echo esc_url( home_url( '/whiteville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Whiteville</strong><span>Columbus County</span></a>
+      <a href="<?php echo esc_url( home_url( '/clinton-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Clinton</strong><span>Sampson County</span></a>
+      <a href="<?php echo esc_url( home_url( '/kenansville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Kenansville</strong><span>Duplin County</span></a>
+      <a href="<?php echo esc_url( home_url( '/fayetteville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Fayetteville</strong><span>Cumberland County</span></a>
     </div>
   </div>
 </section>
@@ -154,7 +154,7 @@ get_header();
     </div>
     <div class="feat-grid">
       <div class="feat-card"><h3>Live human, always</h3><p>The phone rings and a licensed bondsman picks it up. That is the promise.</p></div>
-      <div class="feat-card"><h3>Written everything</h3><p>Quotes, receipts, payment plans — always on paper and always in your inbox.</p></div>
+      <div class="feat-card"><h3>Written everything</h3><p>Quotes, receipts, payment plans always on paper and always in your inbox.</p></div>
       <div class="feat-card"><h3>Judgment-free</h3><p>You will not be lectured. You will be helped.</p></div>
       <div class="feat-card"><h3>Attorney network</h3><p>When the case needs counsel, we introduce you to lawyers we trust.</p></div>
     </div>
@@ -172,7 +172,7 @@ get_header();
     <div class="faq-wrap">
       <div class="faq-item">
         <button class="faq-q">How is a traffic bail bonds different from a cash bond?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="faq-a"><p>A cash bond requires the full face value in cash. A surety-backed bail bond uses our license to post the full amount for a set premium — cheaper up front, and refundable collateral only where needed.</p></div>
+        <div class="faq-a"><p>A cash bond requires the full face value in cash. A surety-backed bail bond uses our license to post the full amount for a set premium cheaper up front, and refundable collateral only where needed.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">Can I get the premium back after the case?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button>
@@ -180,7 +180,7 @@ get_header();
       </div>
       <div class="faq-item">
         <button class="faq-q">What if I can't afford the full premium today?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="faq-a"><p>Ask about a payment plan. Most bonds qualify — we structure a schedule around your household.</p></div>
+        <div class="faq-a"><p>Ask about a payment plan. Most bonds qualify we structure a schedule around your household.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">Do you handle out-of-state warrants?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button>

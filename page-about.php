@@ -8,7 +8,7 @@ get_header(); ?>
 <!-- ===================== LUX HERO ===================== -->
 <section class="lux-hero">
   <div class="lux-hero-media">
-    <img src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=1800&q=70" alt="Justice statue"/>
+    <img src="https://freedomwaybailbonds.com/wp-content/uploads/2026/07/bails.webp?auto=format&fit=crop&w=1800&q=70" alt="Justice statue"/>
     <div class="lux-hero-scrim"></div>
   </div>
   <div class="container lux-hero-inner">
@@ -20,7 +20,7 @@ get_header(); ?>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         Call 910-782-2422
       </a>
-      <a href="#services" class="btn btn-ghost">Explore Services
+      <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost">Explore Services
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
       </a>
     </div>  
@@ -38,17 +38,17 @@ get_header(); ?>
 </section>
 
 <!-- ===================== STORY ===================== -->
-<section class="section">
+<section class="section about-story">
   <div class="container two-col">
     <div class="reveal">
       <span class="eyebrow">01 · Our story</span>
       <h2>Built by a family, for families.</h2>
       <div class="divider"></div>
-      <p>Freedom Way Bail Bonds started in Wilmington with a single licensed bondsman and a rotary phone that never stopped ringing. Fifteen years later, the phone still doesn't stop — and it is still answered by a family that treats every caller the way we would want our own to be treated.</p>
+      <p>Freedom Way Bail Bonds started in Wilmington with a single licensed bondsman and a rotary phone that never stopped ringing. Fifteen years later, the phone still doesn't stopped and it is still answered by a family that treats every caller the way we would want our own to be treated.</p>
       <p>What began at the New Hanover County Detention Facility now stretches from the coast to the state capital and every rural county in between. What has not changed: the promise that when you call, a real person picks up, quotes a real price, and posts a real bond.</p>
     </div>
     <div class="reveal">
-      <img class="tall-img" src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=70" alt="Meeting at a wooden table" loading="lazy"/>
+      <img class="tall-img" src="https://freedomwaybailbonds.com/wp-content/uploads/2026/07/families.webp?auto=format&fit=crop&w=1200&q=70" alt="Meeting at a wooden table" loading="lazy"/>
     </div>
   </div>
 </section>
@@ -66,7 +66,7 @@ get_header(); ?>
 </section>
 
 <!-- ===================== VALUES ===================== -->
-<section class="section section-dark">
+<section class="section section-dark about-values">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">03 · Values</span>
@@ -127,15 +127,15 @@ get_header(); ?>
       <div class="divider"></div>
     </div>
     <div class="area-mini-grid">
-      <a href="<?php echo esc_url(home_url('/areas-served/wilmington/')); ?>" class="area-mini"><strong>Wilmington</strong><span>New Hanover Co.</span></a>
-      <a href="<?php echo esc_url(home_url('/areas-served/burgaw/')); ?>" class="area-mini"><strong>Burgaw</strong><span>Pender Co.</span></a>
-      <a href="<?php echo esc_url(home_url('/areas-served/bolivia/')); ?>" class="area-mini"><strong>Bolivia</strong><span>Brunswick Co.</span></a>
-      <a href="<?php echo esc_url(home_url('/areas-served/raleigh/')); ?>" class="area-mini"><strong>Raleigh</strong><span>Wake Co.</span></a>
-      <a href="<?php echo esc_url(home_url('/areas-served/whiteville/')); ?>" class="area-mini"><strong>Whiteville</strong><span>Columbus Co.</span></a>
-      <a href="<?php echo esc_url(home_url('/areas-served/clinton/')); ?>" class="area-mini"><strong>Clinton</strong><span>Sampson Co.</span></a>
-      <a href="<?php echo esc_url(home_url('/areas-served/kenansville/')); ?>" class="area-mini"><strong>Kenansville</strong><span>Duplin Co.</span></a>
-      <a href="<?php echo esc_url(home_url('/areas-served/fayetteville/')); ?>" class="area-mini"><strong>Fayetteville</strong><span>Cumberland Co.</span></a>
-    </div>
+       <a href="<?php echo esc_url( home_url( '/wilmington-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Wilmington</strong><span>New Hanover County</span></a>
+      <a href="<?php echo esc_url( home_url( '/burgaw-pender-county-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Burgaw</strong><span>Pender County</span></a>
+      <a href="<?php echo esc_url( home_url( '/bolivia-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Bolivia</strong><span>Brunswick County</span></a>
+      <a href="<?php echo esc_url( home_url( '/raleigh-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Raleigh</strong><span>Wake County</span></a>
+      <a href="<?php echo esc_url( home_url( '/whiteville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Whiteville</strong><span>Columbus County</span></a>
+      <a href="<?php echo esc_url( home_url( '/clinton-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Clinton</strong><span>Sampson County</span></a>
+      <a href="<?php echo esc_url( home_url( '/kenansville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Kenansville</strong><span>Duplin County</span></a>
+      <a href="<?php echo esc_url( home_url( '/fayetteville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Fayetteville</strong><span>Cumberland County</span></a>
+ </div>
   </div>
 </section>
 
@@ -183,7 +183,7 @@ get_header(); ?>
       </div>
       <div class="faq-item">
         <button class="faq-q">Is Freedom Way family-owned?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="faq-a"><p>Yes. We are independently, family-owned and operated — no call center, no franchise.</p></div>
+        <div class="faq-a"><p>Yes. We are independently, family-owned and operated, no call center, no franchise.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">Do you refer attorneys?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button>

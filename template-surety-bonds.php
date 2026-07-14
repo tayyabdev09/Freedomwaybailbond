@@ -18,7 +18,7 @@ get_header();
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           Call 910-782-2422
         </a>
-        <a href="#services" class="btn btn-ghost">Explore Services
+        <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost">Explore Services
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
@@ -47,7 +47,7 @@ get_header();
         <li><span>Backed by</span><strong>A-rated national surety</strong></li>
         <li><span>License</span><strong>NC DOI</strong></li>
       </ul>
-      <a href="tel:+19105990868" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px">Speak to a bondsman</a>
+      <a href="tel:+9107822422" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px">Speak to a bondsman</a>
     </div>
   </div>
 </section>
@@ -78,7 +78,7 @@ get_header();
   <div class="container two-col">
     <div class="reveal"><span class="eyebrow" >04 · Cost &amp; payment</span><h2 style="color:#fff">Transparent premium. Flexible plans.</h2>
       <p style="color:#d8dbe3">North Carolina statute caps bail bond premiums as a percentage of the bond's face value. We publish our rate up front, put it in writing, and never invent add-on fees at closing. Payment plans are available on the majority of bonds — we structure the terms around what your household can actually carry.</p>
-      <a href="contact.html" class="btn btn-white">Get a written quote</a>
+      <a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-white">Get a written quote</a>
     </div>
     <div class="glass-card glass-dark reveal">
       <h3 style="color:#fff">What you'll need to co-sign</h3>
@@ -96,15 +96,16 @@ get_header();
 <section class="section section-soft">
   <div class="container">
     <div class="section-head reveal"><span class="eyebrow">05 · Where we work</span><h2>Surety Bonds in every county we serve.</h2><div class="divider"></div><p>Tap a city to see the local bond page, jail info and typical release times.</p></div>
-    <div class="area-mini-grid"><a href="area-wilmington.html" class="area-mini"><strong>Wilmington</strong><span>New Hanover County</span></a>
-<a href="area-burgaw.html" class="area-mini"><strong>Burgaw</strong><span>Pender County</span></a>
-<a href="area-bolivia.html" class="area-mini"><strong>Bolivia</strong><span>Brunswick County</span></a>
-<a href="area-raleigh.html" class="area-mini"><strong>Raleigh</strong><span>Wake County</span></a>
-<a href="area-whiteville.html" class="area-mini"><strong>Whiteville</strong><span>Columbus County</span></a>
-<a href="area-clinton.html" class="area-mini"><strong>Clinton</strong><span>Sampson County</span></a>
-<a href="area-kenansville.html" class="area-mini"><strong>Kenansville</strong><span>Duplin County</span></a>
-<a href="area-fayetteville.html" class="area-mini"><strong>Fayetteville</strong><span>Cumberland County</span></a></div>
-  </div>
+    <div class="area-mini-grid">
+       <a href="<?php echo esc_url( home_url( '/wilmington-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Wilmington</strong><span>New Hanover County</span></a>
+      <a href="<?php echo esc_url( home_url( '/burgaw-pender-county-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Burgaw</strong><span>Pender County</span></a>
+      <a href="<?php echo esc_url( home_url( '/bolivia-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Bolivia</strong><span>Brunswick County</span></a>
+      <a href="<?php echo esc_url( home_url( '/raleigh-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Raleigh</strong><span>Wake County</span></a>
+      <a href="<?php echo esc_url( home_url( '/whiteville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Whiteville</strong><span>Columbus County</span></a>
+      <a href="<?php echo esc_url( home_url( '/clinton-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Clinton</strong><span>Sampson County</span></a>
+      <a href="<?php echo esc_url( home_url( '/kenansville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Kenansville</strong><span>Duplin County</span></a>
+      <a href="<?php echo esc_url( home_url( '/fayetteville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Fayetteville</strong><span>Cumberland County</span></a>
+   </div>
 </section>
 
 <section class="section">

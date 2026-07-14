@@ -64,6 +64,10 @@ h2{font-size:clamp(2rem,3.6vw,3rem);line-height:1.1}
 h3{font-size:clamp(1.25rem,1.8vw,1.55rem);line-height:1.25}
 p{margin:0 0 1em;color:var(--ink-700)}
 .container{max-width:var(--container);margin:0 auto;padding:0 24px}
+.btn-white{background:#fff;color:var(--red-700);border:0}
+.btn-white:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.btn-white-outline{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(6px)}
+.btn-white-outline:hover{background:rgba(255,255,255,.16);transform:translateY(-2px)}
 
 /* Utility ------------------------------------------------ */
 .eyebrow{
@@ -841,7 +845,8 @@ p{margin:0 0 1em;color:var(--ink-700)}
 @media (max-width:720px){.check-grid{grid-template-columns:1fr}}
 
 /* Feature grid ----------------------------------------------- */
-.feat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.about-values .feat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.feat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .feat-card{background:#fff;border-radius:var(--radius-lg);padding:32px;border:1px solid var(--ink-100);box-shadow:var(--shadow-sm);transition:all .3s ease;position:relative;overflow:hidden}
 .feat-card::before{content:"";position:absolute;inset:auto -20% -20% auto;width:50%;height:50%;background:radial-gradient(closest-side,rgba(200,16,46,.08),transparent 70%);pointer-events:none}
 .feat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:transparent}
@@ -976,7 +981,7 @@ p{margin:0 0 1em;color:var(--ink-700)}
     grid-template-columns: 2fr, 1fr;
     grid-template-columns: 1fr 1fr;
 }
-
+.about-story .tall-img{aspect-ratio: 5 / 5;}
 @media (max-width:768px){
   .topbar .tb-right{display:none}
   .nav-links,.nav-cta .call{display:none}
@@ -998,4 +1003,5 @@ p{margin:0 0 1em;color:var(--ink-700)}
   .about-grid{    grid-template-columns: 1fr;  }
 	.hero-cta{justify-content: center;}
 	.section{padding: 40px 0px;}
+  .contact-grid{grid-template-columns: 1fr}
 }

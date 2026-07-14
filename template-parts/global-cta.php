@@ -12,7 +12,7 @@
       <div>
         <span class="eyebrow" style="background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.2);color:#fff">24/7 Emergency Line</span>
         <h2 style="margin-top:18px">One phone call is the first step toward home.</h2>
-        <p>Freedom Way Bail Bonds is standing by right now. No forms, no waiting rooms — just a licensed bondsman ready to help your family breathe again.</p>
+        <p>Freedom Way Bail Bonds is standing by right now. No forms, no waiting rooms, just a licensed bondsman ready to help your family breathe again.</p>
       </div>
       <div class="cta-actions">
         <a href="tel:+9107822422" class="call-huge">

@@ -12,13 +12,13 @@ get_header();
   <div class="container lux-hero-inner">
     <span class="eyebrow reveal">Brunswick County · Brunswick County Seat</span>
     <h1 class="reveal">Bail bonds in <span class="accent">Bolivia</span>, North Carolina.</h1>
-    <p class="reveal">From Southport to Shallotte, Brunswick County is home turf. Our bondsmen post at the Brunswick County Detention Center every shift — mornings, midnights and everything between.</p>
+    <p class="reveal">From Southport to Shallotte, Brunswick County is home turf. Our bondsmen post at the Brunswick County Detention Center every shift mornings, midnights and everything between.</p>
      <div class="hero-cta">
         <a href="tel:+9107822422" class="btn btn-primary">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           Call 910-782-2422
         </a>
-        <a href="#services" class="btn btn-ghost">Explore Services
+        <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost">Explore Services
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
@@ -37,7 +37,7 @@ get_header();
 
 <section class="section" id="services-toc">
   <div class="container">
-    <div class="section-head reveal"><span class="eyebrow">Services in Bolivia</span><h2>Every bond Bolivia families need — handled locally.</h2><div class="divider"></div><p>Five core services, one number to remember. Every section below is written specifically for Brunswick County procedures.</p></div>
+    <div class="section-head reveal"><span class="eyebrow">Services in Bolivia</span><h2>Every bond Bolivia families need handled locally.</h2><div class="divider"></div><p>Five core services, one number to remember. Every section below is written specifically for Brunswick County procedures.</p></div>
     <div class="toc-chips"><a class="toc-chip" href="#traffic-bail-bonds"><span>Traffic</span></a><a class="toc-chip" href="#domestic-violence-bonds"><span>Domestic Violence</span></a><a class="toc-chip" href="#appearance-bonds"><span>Appearance</span></a><a class="toc-chip" href="#surety-bonds"><span>Surety</span></a><a class="toc-chip" href="#24-7-bail-bonds"><span>24/7 Emergency</span></a></div>
   </div>
 </section>
@@ -50,14 +50,14 @@ get_header();
       <span class="eyebrow">DWI · Reckless · License · Bolivia</span>
       <h2>Traffic Bail Bonds in Bolivia, NC</h2>
       <div class="divider"></div>
-      <p>In Bolivia and across Brunswick County, From a first-offense DWI to a habitual-offender reckless-driving charge, our traffic bond team keeps drivers behind the wheel of their own lives — not stranded in a holding cell. Our local bondsmen know the Bolivia magistrate's routine and post traffic bonds through the Brunswick County Detention Center every week.</p>
+      <p>In Bolivia and across Brunswick County, From a first-offense DWI to a habitual-offender reckless-driving charge, our traffic bond team keeps drivers behind the wheel of their own lives not stranded in a holding cell. Our local bondsmen know the Bolivia magistrate's routine and post traffic bonds through the Brunswick County Detention Center every week.</p>
       <ul class="check-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>DWI / DUI first-offense and repeat charges</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Reckless driving and speeding felonies</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Driving while license revoked (DWLR)</span></li>
-<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Hit and run — property and injury</span></li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Hit and run property and injury</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Habitual traffic offender bonds</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>No operator's license and expired registration</span></li></ul>
-      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="contact.html" class="btn btn-ghost">Request Callback</a></div>
+      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-ghost">Request Callback</a></div>
     </div>
   </div>
 </section>
@@ -69,13 +69,13 @@ get_header();
       <h2>Domestic Violence Bail Bonds in Bolivia, NC</h2>
       <div class="divider"></div>
       <p>In Bolivia and across Brunswick County, Domestic violence charges move through a 48-hour magistrate hold in North Carolina. We understand the timeline, the no-contact conditions, and how to bring dignity back to a very hard moment. Our local bondsmen know the Bolivia magistrate's routine and post domestic violence bonds through the Brunswick County Detention Center every week.</p>
-      <ul class="check-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>50B protective-order violations</span></li>
+      <ul class="check-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>50B protectiveorder violations</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Assault on a female (misdemeanor & felony)</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Communicating threats</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Cyberstalking and harassment</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Interfering with emergency communication</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Second- and subsequent-offense enhancements</span></li></ul>
-      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="contact.html" class="btn btn-ghost">Request Callback</a></div>
+      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-ghost">Request Callback</a></div>
     </div>
   </div>
 </section>
@@ -86,14 +86,14 @@ get_header();
       <span class="eyebrow">Court-guaranteed release · Bolivia</span>
       <h2>Appearance Bonds in Bolivia, NC</h2>
       <div class="divider"></div>
-      <p>In Bolivia and across Brunswick County, An appearance bond is your written promise — backed by our surety — that a defendant will show up to every court date. It is the most common bond written across North Carolina district and superior courts. Our local bondsmen know the Bolivia magistrate's routine and post appearance bonds through the Brunswick County Detention Center every week.</p>
+      <p>In Bolivia and across Brunswick County, An appearance bond is your written promise backed by our surety that a defendant will show up to every court date. It is the most common bond written across North Carolina district and superior courts. Our local bondsmen know the Bolivia magistrate's routine and post appearance bonds through the Brunswick County Detention Center every week.</p>
       <ul class="check-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Written promise + secured collateral options</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Cash bonds and property bonds</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Split bonds and unsecured releases</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Bond reduction motions with counsel</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Failure-to-appear (FTA) recovery</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Court-date reminders and support</span></li></ul>
-      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="contact.html" class="btn btn-ghost">Request Callback</a></div>
+      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-ghost">Request Callback</a></div>
     </div>
   </div>
 </section>
@@ -108,10 +108,10 @@ get_header();
       <ul class="check-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Full-face-value surety across all 100 NC counties</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Backed by A-rated national sureties</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Flexible collateral and co-signer options</span></li>
-<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>No-hidden-fee premium — clear rate up front</span></li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>No-hidden-fee premium clear rate up front</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Written receipts and full documentation</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Consumer-protection compliant with NC DOI</span></li></ul>
-      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="contact.html" class="btn btn-ghost">Request Callback</a></div>
+      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-ghost">Request Callback</a></div>
     </div>
   </div>
 </section>
@@ -123,13 +123,13 @@ get_header();
       <h2>24/7 Bail Bonds in Bolivia, NC</h2>
       <div class="divider"></div>
       <p>In Bolivia and across Brunswick County, Arrests do not keep business hours. Our licensed bondsmen answer the phone in under a minute at 2 a.m. on a Sunday the same way we answer it at 2 p.m. on a Tuesday. There is no after-hours menu. Our local bondsmen know the Bolivia magistrate's routine and post 24/7 emergency bonds through the Brunswick County Detention Center every week.</p>
-      <ul class="check-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Live human response — no phone tree</span></li>
+      <ul class="check-list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Live human response no phone tree</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Nights, weekends and holidays included</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Multi-county coordination in a single call</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Attorney referrals when the case demands it</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Post-release check-in and court reminders</span></li>
 <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Sealed, respectful billing correspondence</span></li></ul>
-      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="contact.html" class="btn btn-ghost">Request Callback</a></div>
+      <div class="split-cta"><a href="tel:+9107822422" class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 910-782-2422</a><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-ghost">Request Callback</a></div>
     </div>
   </div>
 </section>
@@ -141,9 +141,9 @@ get_header();
       <div class="feat-card"><span class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><h3>On the ground in Bolivia</h3><p>We drive these roads every week. We know the clerks, the magistrates, and the fastest route between the jail and your kitchen table.</p></div>
       <div class="feat-card"><span class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span><h3>Under an hour to start</h3><p>From your first call to signed paperwork averages under 60 minutes in Brunswick County. Then the clock is on the facility, not us.</p></div>
       <div class="feat-card"><span class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><h3>Licensed &amp; bonded</h3><p>State-licensed by the NC Department of Insurance. Backed by A-rated national sureties. Every receipt written and signed.</p></div>
-      <div class="feat-card"><span class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span><h3>Flexible payments</h3><p>We publish our rate and honor it. Payment plans available on most bonds — no surprises after the fact.</p></div>
+      <div class="feat-card"><span class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span><h3>Flexible payments</h3><p>We publish our rate and honor it. Payment plans available on most bonds no surprises after the fact.</p></div>
       <div class="feat-card"><span class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span><h3>Dignified service</h3><p>No judgment. No lectures. Just steady, professional help getting your person home to sleep in their own bed.</p></div>
-      <div class="feat-card"><span class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></span><h3>Court-date support</h3><p>Reminders, prep and — when the case warrants — attorney referrals we've worked with in Bolivia for years.</p></div>
+      <div class="feat-card"><span class="fc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></span><h3>Court-date support</h3><p>Reminders, prep and when the case warrants attorney referrals we've worked with in Bolivia for years.</p></div>
     </div>
   </div>
 </section>

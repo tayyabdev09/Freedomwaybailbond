@@ -44,7 +44,7 @@ get_header();
       <div class="glass-card">
         <h3>Reach us directly</h3>
         <ul class="fact-list">
-          <li><span>Phone</span><strong><a href="tel:+9105990868">910-782-2422</a></strong></li>
+          <li><span>Phone</span><strong><a href="tel:+9107822422">910-782-2422</a></strong></li>
           <li><span>Email</span><strong><a href="mailto:freedomwaybailbonds@gmail.com">freedomwaybailbonds@gmail.com</a></strong></li>
           <li><span>Hours</span><strong>Open 24 / 7 / 365</strong></li>
           <li><span>Coverage</span><strong>All 100 NC counties</strong></li>
@@ -54,7 +54,7 @@ get_header();
       <div class="glass-card" style="margin-top:20px">
         <h3>Fastest to a bondsman</h3>
         <p style="margin:0">Call. Every time. The phone puts a licensed bondsman on the line in under a minute, quotes a firm premium, and starts the paperwork before you hang up.</p>
-        <a href="tel:+19105990868" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:14px">Call now</a>
+        <a href="tel:+9107822422" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:14px">Call now</a>
       </div>
     </div>
 
@@ -70,14 +70,14 @@ get_header();
       <div class="divider"></div>
     </div>
     <div class="area-mini-grid">
-      <a href="<?php echo esc_url( home_url( '/area-wilmington/' ) ); ?>" class="area-mini"><strong>Wilmington</strong><span>New Hanover Co.</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-burgaw/' ) ); ?>" class="area-mini"><strong>Burgaw</strong><span>Pender Co.</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-bolivia/' ) ); ?>" class="area-mini"><strong>Bolivia</strong><span>Brunswick Co.</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-raleigh/' ) ); ?>" class="area-mini"><strong>Raleigh</strong><span>Wake Co.</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-whiteville/' ) ); ?>" class="area-mini"><strong>Whiteville</strong><span>Columbus Co.</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-clinton/' ) ); ?>" class="area-mini"><strong>Clinton</strong><span>Sampson Co.</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-kenansville/' ) ); ?>" class="area-mini"><strong>Kenansville</strong><span>Duplin Co.</span></a>
-      <a href="<?php echo esc_url( home_url( '/area-fayetteville/' ) ); ?>" class="area-mini"><strong>Fayetteville</strong><span>Cumberland Co.</span></a>
+      <a href="<?php echo esc_url( home_url( '/wilmington-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Wilmington</strong><span>New Hanover County</span></a>
+      <a href="<?php echo esc_url( home_url( '/burgaw-pender-county-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Burgaw</strong><span>Pender County</span></a>
+      <a href="<?php echo esc_url( home_url( '/bolivia-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Bolivia</strong><span>Brunswick County</span></a>
+      <a href="<?php echo esc_url( home_url( '/raleigh-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Raleigh</strong><span>Wake County</span></a>
+      <a href="<?php echo esc_url( home_url( '/whiteville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Whiteville</strong><span>Columbus County</span></a>
+      <a href="<?php echo esc_url( home_url( '/clinton-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Clinton</strong><span>Sampson County</span></a>
+      <a href="<?php echo esc_url( home_url( '/kenansville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Kenansville</strong><span>Duplin County</span></a>
+      <a href="<?php echo esc_url( home_url( '/fayetteville-nc-bail-bonds/' ) ); ?>" class="area-mini"><strong>Fayetteville</strong><span>Cumberland County</span></a>
     </div>
   </div>
 </section>

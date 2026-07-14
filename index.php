@@ -5,14 +5,14 @@
   <div class="container hero-inner">
     <div class="reveal">
       <span class="eyebrow">Licensed · Bonded · North Carolina</span>
-      <h1 style="margin-top:18px">Freedom is one call away — <span class="accent">24/7 bail bonds</span> across North Carolina.</h1>
+      <h1 style="margin-top:18px">Freedom is one call away <span class="accent">24/7 bail bonds</span> across North Carolina.</h1>
       <p class="lead">When every minute matters, our licensed bondsmen answer immediately. Fast paperwork, transparent process, and dignified, confidential support from arrest to court date.</p>
       <div class="hero-cta">
         <a href="tel:+9107822422" class="btn btn-primary">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           Call 910-782-2422
         </a>
-        <a href="#services" class="btn btn-ghost">Explore Services
+        <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-ghost">Explore Services
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
@@ -130,7 +130,7 @@
       <span class="eyebrow">Our Services</span>
       <h2 style="margin-top:16px">Every bond, handled with expertise and urgency.</h2>
       <div class="divider"></div>
-      <p>From a routine traffic bond to a complex domestic case, our licensed agents write the right bond, the right way — the first time.</p>
+      <p>From a routine traffic bond to a complex domestic case, our licensed agents write the right bond, the right way the first time.</p>
     </div>
 
     <div class="svc-grid">
@@ -138,7 +138,7 @@
         <span class="svc-num">01</span>
         <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"/><circle cx="6.5" cy="16.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></svg></div>
         <h3><a href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">Traffic Bail Bonds</a></h3>
-        <p>DWI, reckless driving, driving with a suspended license — we handle the paperwork so you can focus on the road ahead.</p>
+        <p>DWI, reckless driving, driving with a suspended license we handle the paperwork so you can focus on the road ahead.</p>
       </article>
 
       <article class="svc-card reveal">
@@ -166,7 +166,7 @@
         <span class="svc-num">05</span>
         <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
         <h3><a href="<?php echo esc_url(home_url('/24-7-bail-bonds/')); ?>">24/7 Bail Bonds</a></h3>
-        <p>Arrests do not keep business hours. Neither do we. A live agent answers every call — nights, weekends and holidays.</p>
+        <p>Arrests do not keep business hours. Neither do we. A live agent answers every call nights, weekends and holidays.</p>
       </article>
 
       <article class="svc-card reveal" style="background:var(--grad-ink);color:#fff;border-color:transparent">
@@ -219,7 +219,7 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Why Freedom Way</span>
-      <h2 style="margin-top:16px">The reputation clients call first — and refer most.</h2>
+      <h2 style="margin-top:16px">The reputation clients call first and refer most.</h2>
       <div class="divider"></div>
       <p>Fifteen years of jail visits, magistrate hearings, and 3 a.m. phone calls have built a standard our clients feel from the very first minute.</p>
     </div>
@@ -247,12 +247,12 @@
       <div class="why-card reveal">
         <div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
         <h3>Statewide Coverage</h3>
-        <p>Coastal, central and inland North Carolina — we know the courts, the clerks, and the road.</p>
+        <p>Coastal, central and inland North Carolina we know the courts, the clerks, and the road.</p>
       </div>
       <div class="why-card reveal">
         <div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
         <h3>Court-Date Support</h3>
-        <p>Automated reminders and a real person to call if life gets in the way — we protect your bond.</p>
+        <p>Automated reminders and a real person to call if life gets in the way we protect your bond.</p>
       </div>
     </div>
   </div>
@@ -281,7 +281,7 @@
         <button class="area-tag" data-lat="35.0527" data-lng="-78.8784"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Fayetteville</button>
       </div>
       
-      <a href="<?php echo esc_url(home_url('/areas-we-serve')); ?>" class="btn btn-dark" style="margin-top:24px">See All Service Areas
+      <a href="<?php echo esc_url(home_url('/areas-we-serve/')); ?>" class="btn btn-dark" style="margin-top:24px">See All Service Areas
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
     </div>
@@ -341,11 +341,11 @@
       </div>
       <div class="faq-item reveal">
         <button class="faq-q">Are you really available 24 hours a day? <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Yes. A licensed bondsman answers every call, every hour of every day — including weekends and holidays. There is no call center, no queue, no waiting for a callback.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Yes. A licensed bondsman answers every call, every hour of every day including weekends and holidays. There is no call center, no queue, no waiting for a callback.</div></div>
       </div>
       <div class="faq-item reveal">
         <button class="faq-q">What information do I need when I call? <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">Just what you know: the full name of the person arrested, the jail or county they are in, and the charge if available. If you do not have all of it, that is fine — we will find the rest.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">Just what you know: the full name of the person arrested, the jail or county they are in, and the charge if available. If you do not have all of it, that is fine we will find the rest.</div></div>
       </div>
       <div class="faq-item reveal">
         <button class="faq-q">Do you offer payment plans? <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
@@ -353,7 +353,7 @@
       </div>
       <div class="faq-item reveal">
         <button class="faq-q">Which North Carolina counties do you cover? <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">We serve New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin and Cumberland counties among others — including Wilmington, Raleigh, Fayetteville, Burgaw, Bolivia, Whiteville, Clinton and Kenansville. See our full list on the <a href="<?php echo esc_url(home_url('/areas-served')); ?>" style="color:var(--red-600);font-weight:600">Areas We Serve</a> page.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">We serve New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin and Cumberland counties among others including Wilmington, Raleigh, Fayetteville, Burgaw, Bolivia, Whiteville, Clinton and Kenansville. See our full list on the <a href="<?php echo esc_url(home_url('/areas-we-serve/')); ?>" style="color:var(--red-600);font-weight:600">Areas We Serve</a> page.</div></div>
       </div>
     </div>
   </div>
