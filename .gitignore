@@ -1,0 +1,15 @@
+# Ignore local development environment settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Ignore operating system overhead clutter
+Thumbs.db
+.DS_Store
+
+# Ignore temporary crash or error log snapshots
+*.log
