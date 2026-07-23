@@ -23,7 +23,7 @@ if ( have_posts() ) :
     <div class="lux-hero-scrim"></div>
   </div>
   <div class="container lux-hero-inner">
-    <div class="post-meta-top reveal" style="margin-bottom: 16px;">
+    <div class="post-meta-top " style="margin-bottom: 16px;">
       <?php
       $categories = get_the_category();
       if ( ! empty( $categories ) ) :
@@ -39,8 +39,8 @@ if ( have_posts() ) :
         <?php echo esc_html( get_the_date() ); ?>
       </span>
     </div>
-    <h1 class="reveal"><?php the_title(); ?></h1>
-    <p class="reveal">Written and verified by the licensed field professionals at Freedom Way Bail Bonds.</p>
+    <h1 class=""><?php the_title(); ?></h1>
+    <p class="">Written and verified by the licensed field professionals at Freedom Way Bail Bonds.</p>
   </div>
 </section>
 
@@ -48,7 +48,7 @@ if ( have_posts() ) :
 <section class="section post-article-section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-10 reveal">
+      <div class="col-lg-8 col-md-10 ">
         
         <!-- BACK TO JOURNAL LINK -->
         <div style="margin-bottom: 30px;">
