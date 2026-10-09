@@ -142,6 +142,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Two places bookings can land</span><h2>Wake County runs two detention facilities.</h2><div class="divider"></div>
       <p>Bail bonding is handled at the Wake County Detention Center, 3301 Hammond Road, Raleigh — even if the person was initially booked at the John H. Baker Jr. Public Safety Center downtown. Facility line: 919-773-7930.</p>
     </div>
+  </div>
 </section>
 
 <section class="section" id="faq">

@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#c8102e" />
     <?php wp_head(); ?>
+    <?php
+    // Note for SMT: Street address / postal code can be added once public business address is confirmed with owner.
+    ?>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LegalService",
+      "@type": "LocalBusiness",
       "@id": "<?php echo esc_url( home_url( '/#organization' ) ); ?>",
       "name": "Freedom Way Bail Bonds",
       "url": "<?php echo esc_url( home_url( '/' ) ); ?>",
       "logo": "<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo.webp' ); ?>",
+      "description": "Licensed North Carolina bail bond agency based in Wilmington, posting bonds 24/7 in New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin and Cumberland counties.",
       "telephone": "+1-910-782-2422",
       "email": "freedomwaybailbonds@gmail.com",
       "address": {
@@ -36,9 +40,15 @@
         {"@type": "AdministrativeArea", "name": "Sampson County, NC"},
         {"@type": "AdministrativeArea", "name": "Duplin County, NC"},
         {"@type": "AdministrativeArea", "name": "Cumberland County, NC"}
+      ],
+      "knowsAbout": ["bail bonds", "surety bail bonds", "appearance bonds", "domestic violence bail bonds", "DWI bail bonds"],
+      "knowsLanguage": ["en", "es"],
+      "sameAs": [
+        "https://www.facebook.com/freedomwaybailbonds/",
+        "https://www.instagram.com/freedom_way_bail_bonds/",
+        "https://www.linkedin.com/company/freedomwaybailbonds/"
       ]
     }
-    <!-- TODO(SMT): confirm/insert real streetAddress + postalCode once the owner confirms the public business address (audit flags an address mismatch across citations — see report Section 21/13). sameAs (Facebook/Instagram/Yelp/GBP) also needs the owner's real profile URLs added here. -->
     </script>
 
     <!-- Google Tag Manager -->
@@ -158,7 +168,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Wilmington</span></div><span class="dt-sub">New Hanover County</span></span>
           </a>
-          <a class="drop-item <?php echo is_page('burgaw-pender-county-nc-bail-bonds) ? \'active\' : \'\';') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/burgaw-pender-county-nc-bail-bonds/')); ?>">
+          <a class="drop-item <?php echo is_page('burgaw-pender-county-nc-bail-bonds') ? 'active' : ''; ?>" role="menuitem" href="<?php echo esc_url(home_url('/burgaw-pender-county-nc-bail-bonds/')); ?>">
             <span class="drop-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
             <span class="drop-text"><div><span class="dt-title">Burgaw</span></div><span class="dt-sub">Pender County</span></span>
           </a>

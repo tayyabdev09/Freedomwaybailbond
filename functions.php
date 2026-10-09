@@ -16,11 +16,8 @@ function freedom_way_assets() {
     // Third-party scripts
     wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array(), '5.3.3', true);
 
-    // Audit fix (Performance / T3): Leaflet was loaded site-wide on every page
-    // even though no template currently renders a map. Only enqueue it on the
-    // Contact page, and load it on scroll there via the script itself, rather
-    // than blocking every page's render with unused map JS/CSS.
-    if ( is_page( 'contact-us' ) ) {
+    // Load Leaflet only where the interactive NC map exists (Front Page)
+    if ( is_front_page() ) {
         wp_enqueue_style('leaflet-css', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', array(), '1.9.4');
         wp_enqueue_script('leaflet-js', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', array(), '1.9.4', true);
     }
@@ -29,6 +26,31 @@ function freedom_way_assets() {
     wp_enqueue_script('freedom-way-script', get_template_directory_uri() . '/assets/js/script.js', array(), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'freedom_way_assets');
+
+// Preconnect to Google Fonts domain for performance
+function freedom_way_resource_hints( $urls, $relation_type ) {
+    if ( 'preconnect' === $relation_type ) {
+        $urls[] = array(
+            'href' => 'https://fonts.gstatic.com',
+            'crossorigin' => 'anonymous',
+        );
+    }
+    return $urls;
+}
+add_filter( 'wp_resource_hints', 'freedom_way_resource_hints', 10, 2 );
+
+// Disable WordPress emojis and hide generator meta for security & speed
+function freedom_way_cleanup_head() {
+    remove_action( 'wp_head', 'wp_generator' );
+    remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+    remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+    remove_action( 'wp_print_styles', 'print_emoji_styles' );
+    remove_action( 'admin_print_styles', 'print_emoji_styles' );
+    remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
+    remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
+    remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
+}
+add_action( 'init', 'freedom_way_cleanup_head' );
 
 function freedom_way_theme_setup() {
     // Add title tag support & logo support

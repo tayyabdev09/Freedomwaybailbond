@@ -72,6 +72,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow" style="color:#fff">What family can do during the hold</span><h2 style="color:#fff">You're not powerless during those 48 hours.</h2><div class="divider"></div>
       <p style="color:#d8dbe3">Call us as soon as the arrest happens — we can confirm which facility the defendant is held at, explain what the 48-hour process looks like, and have everything ready so the moment a judge sets bond, we're posting it, not starting paperwork from scratch. We can also point you toward an attorney experienced in DV cases if you don't already have one.</p>
     </div>
+  </div>
 </section>
 
 <section class="section section-soft" id="faq">

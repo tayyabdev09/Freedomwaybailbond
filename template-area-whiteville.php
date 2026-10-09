@@ -142,6 +142,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Booking &amp; detention</span><h2>Columbus County Detention Center, Washington Street.</h2><div class="divider"></div>
       <p>The county jail sits at 803 Washington Street in Whiteville, roughly 192 beds. Facility line: 910-640-6628.</p>
     </div>
+  </div>
 </section>
 
 <section class="section" id="faq">

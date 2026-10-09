@@ -209,8 +209,9 @@ get_header();
   "serviceType": "Bail Bond Services",
   "provider": {    
     "@type": "LocalBusiness",
+    "@id": "<?php echo esc_url( home_url( '/#organization' ) ); ?>",
     "name": "Freedom Way Bail Bonds",
-    "telephone": "+1-910-599-0868"
+    "telephone": "+1-910-782-2422"
   },
   "areaServed": [
     {"@type": "City", "name": "Wilmington, NC"},

@@ -79,6 +79,7 @@ get_header();
       <p style="color:#d8dbe3">DWI bonds are priced the same way every other bond is — a state-capped percentage of the bond amount the magistrate sets, which can run higher for repeat offenses or aggravating factors. We give you the figure on the phone, before anything is signed, and can structure a payment plan.</p>
       <a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-white">Get a written quote</a>
     </div>
+  </div>
 </section>
 
 <section class="section section-soft" id="faq">

@@ -142,6 +142,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Booking &amp; detention</span><h2>Brunswick County Detention Center, Bolivia.</h2><div class="divider"></div>
       <p>The county's detention facility sits at 70 Stamp Act Drive Northeast in Bolivia, off US-17. Facility line: 910-253-2760.</p>
     </div>
+  </div>
 </section>
 
 <section class="section" id="faq">

@@ -72,6 +72,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow" style="color:#fff">On-call rotation</span><h2 style="color:#fff">Real bondsmen, real rotation.</h2><div class="divider"></div>
       <p style="color:#d8dbe3">We staff genuine after-hours coverage across our team rather than relying on one person to never sleep — so a 3am call in August lands with the same energy and speed as a 3pm call in January.</p>
     </div>
+  </div>
 </section>
 
 <section class="section section-soft" id="faq">

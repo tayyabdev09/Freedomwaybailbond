@@ -142,6 +142,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Booking &amp; detention</span><h2>Pender County Detention Center, Walker Street.</h2><div class="divider"></div>
       <p>Bookings go through the Detention Center at 104 North Walker Street in Burgaw, a short walk from the county's landmark 1936 courthouse. Facility line: 910-259-1200.</p>
     </div>
+  </div>
 </section>
 
 <section class="section" id="faq">

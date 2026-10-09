@@ -147,6 +147,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Where the bond gets posted</span><h2>New Hanover County Detention Facility.</h2><div class="divider"></div>
       <p>Bookings for anyone arrested in Wilmington or elsewhere in New Hanover County go through the county's Detention Facility on Juvenile Center Road in Castle Hayne — not a building downtown, which surprises a lot of first-time callers. Address: 3950 Juvenile Center Road, Castle Hayne, NC 28429. Facility line: 910-798-4161.</p>
     </div>
+  </div>
 </section>
 
 <section class="section" id="faq">

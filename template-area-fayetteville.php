@@ -142,6 +142,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Booking &amp; detention</span><h2>Cumberland County Detention Center, Gillespie Street.</h2><div class="divider"></div>
       <p>The detention facility sits at 204 Gillespie Street in downtown Fayetteville, capacity above 560. Facility line: 910-672-5630.</p>
     </div>
+  </div>
 </section>
 
 <section class="section" id="faq">

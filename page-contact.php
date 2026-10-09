@@ -37,6 +37,7 @@ get_header();
       <div class="contact-form-wpforms-container">
         <?php echo do_shortcode('[wpforms id="172"]'); ?>
       </div>
+      <p style="font-size: 0.85rem; color: var(--ink-500); margin-top: 14px;">Your information is confidential and protected by our <a href="<?php echo esc_url(home_url('/privacy-policy/')); ?>" style="color: var(--red-600); text-decoration: underline;">Privacy Policy</a>.</p>
     </div>
     
     <!-- RIGHT SIDE: DIRECT OFFICE INFO -->

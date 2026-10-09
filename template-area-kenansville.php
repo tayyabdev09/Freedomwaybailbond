@@ -142,6 +142,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Booking &amp; detention</span><h2>Duplin County Detention Center, West Hill Street.</h2><div class="divider"></div>
       <p>The Sheriff's Office and Detention Center share a campus at 112 West Hill Street in Kenansville. Main line: 910-296-2324, after-hours: 910-296-1911.</p>
     </div>
+  </div>
 </section>
 
 <section class="section" id="faq">

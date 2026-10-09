@@ -72,6 +72,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Collateral, explained</span><h2>When we ask for more than the premium.</h2><div class="divider"></div>
       <p>On smaller bonds, the premium alone is usually enough. On larger bonds, or where a defendant has a prior failure-to-appear, we may ask for collateral — property, a vehicle title, or a co-signer with strong credit — to secure the surety company's exposure. Any collateral is returned once the case concludes and the defendant has met every court obligation; it is never kept as extra profit.</p>
     </div>
+  </div>
 </section>
 
 <section class="section section-dark" id="faq">

@@ -73,6 +73,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">What happens if a date is missed</span><h2>The bond doesn't disappear — it gets called.</h2><div class="divider"></div>
       <p>If a defendant misses a scheduled court date, the court can order the appearance bond forfeited, meaning we — and by extension the co-signer — are on the hook for the full bond amount unless the defendant is located and brought back before the deadline. This is why we call and text ahead of every date on record. If a date was genuinely missed by accident, tell us immediately — there are sometimes options to get back in front of the judge before forfeiture becomes final.</p>
     </div>
+  </div>
 </section>
 
 <section class="section section-dark">

@@ -16,7 +16,7 @@
       </div>
 
       <div>
-        <h4>Explore</h4>
+        <div class="f-heading">Explore</div>
         <ul class="f-list">
           <li><a href="<?php echo esc_url(home_url('/')); ?>">Home</a></li>
           <li><a href="<?php echo esc_url(home_url('/about-us/')); ?>">About Us</a></li>
@@ -27,7 +27,7 @@
       </div>
 
       <div>
-        <h4>Services</h4>
+        <div class="f-heading">Services</div>
         <ul class="f-list">
           <li><a href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">Traffic Bail Bonds</a></li>
           <li><a href="<?php echo esc_url(home_url('/domestic-violence-bail-bonds/')); ?>">Domestic Violence Bonds</a></li>
@@ -38,7 +38,7 @@
       </div>
 
       <div>
-        <h4>Get In Touch</h4>
+        <div class="f-heading">Get In Touch</div>
         <ul class="f-list f-contact">
           <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span> <a href="tel:+19107822422">910-782-2422</a></li>
           <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span> <a href="mailto:freedomwaybailbonds@gmail.com">freedomwaybailbonds@gmail.com</a></li>
@@ -50,7 +50,7 @@
 
     <div class="f-bottom">
       <div>© <span id="year"><?php echo date('Y'); ?></span> Freedom Way Bail Bonds. All rights reserved. NC Department of Insurance Licensed.</div>
-      <!-- <div style="display:flex;gap:16px"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Accessibility</a></div> -->
+      <div style="display:flex;gap:16px"><a href="<?php echo esc_url(home_url('/privacy-policy/')); ?>">Privacy Policy</a><a href="<?php echo esc_url(home_url('/terms-of-service/')); ?>">Terms of Service</a></div>
     </div>
   </div>
 </footer>

@@ -142,6 +142,7 @@ get_header();
     <div class="section-head reveal"><span class="eyebrow">Booking &amp; detention</span><h2>Sampson County Detention Center, Fontana Street.</h2><div class="divider"></div>
       <p>The jail is at 112 Fontana Street in Clinton, roughly 252 beds. Facility line: 910-592-8178. Note: inmate calls are landline-only, not cell phones.</p>
     </div>
+  </div>
 </section>
 
 <section class="section" id="faq">
