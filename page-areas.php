@@ -158,7 +158,7 @@ get_header();
           <span class="num">08 · Cumberland</span>
         </div>
         <div class="area-body">
-          <div class="city">Fayetteville<small>Home of Fort Liberty</small></div>
+          <div class="city">Fayetteville<small>Home of Fort Bragg</small></div>
           <p>Fayetteville is a busy jurisdiction — we're equipped for it. From Cumberland County Detention Center bookings to military-related cases, our bondsmen move quickly.</p>
           <div class="area-meta">
             <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> ~4 hr release</span>

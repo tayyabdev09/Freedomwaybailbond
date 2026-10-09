@@ -15,7 +15,7 @@ get_header();
   <div class="container lux-hero-inner">
     <span class="eyebrow reveal">Our Services</span>
     <h1 class="reveal">Five ways we bring <span class="accent">North Carolina families home.</span></h1>
-    <p class="reveal">One licensed team, five bond types, one hundred counties. Whatever the charge, we have written the paperwork before and we know how to move it fast.</p>
+    <p class="reveal">One licensed team, five bond types, eight North Carolina counties. Whatever the charge, we have written the paperwork before and we know how to move it fast.</p>
     <div class="hero-cta">
       <a href="tel:+19107822422" class="btn btn-primary">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -32,7 +32,7 @@ get_header();
 <section class="stat-strip">
   <div class="container stat-strip-inner">
     <div class="stat-cell"><div class="sc-num">5</div><div class="sc-lbl">Bond types</div></div>
-    <div class="stat-cell"><div class="sc-num">100</div><div class="sc-lbl">NC counties</div></div>
+    <div class="stat-cell"><div class="sc-num">8</div><div class="sc-lbl">NC counties</div></div>
     <div class="stat-cell"><div class="sc-num">24/7</div><div class="sc-lbl">On call</div></div>
     <div class="stat-cell"><div class="sc-num">15+</div><div class="sc-lbl">Years</div></div>
   </div>
@@ -43,7 +43,7 @@ get_header();
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">The full menu</span>
-      <h2>Every bond written under one roof.</h2>
+      <h2>Bail Bond Services Across 8 NC Counties</h2>
       <div class="divider"></div>
       <p>Tap any service to jump to a full breakdown, or scroll straight through we've written each section for the people actually reading it at 2 a.m.</p>
     </div>
@@ -170,7 +170,7 @@ get_header();
 <!-- ===================== STEPS SECTION ===================== -->
 <section class="section section-soft">
   <div class="container">
-    <div class="section-head reveal"><span class="eyebrow">How it works</span><h2>Four calm steps between the call and the release.</h2><div class="divider"></div></div>
+    <div class="section-head reveal"><span class="eyebrow">How it works</span><h2>How the Bail Process Works in 4 Steps</h2><div class="divider"></div></div>
     <div class="steps-grid">
       <div class="step-card"><span class="step-n">01</span><h3>Call us</h3><p>Speak with a licensed bondsman in under a minute. Share the name, facility and charge — we take it from there.</p></div>
       <div class="step-card"><span class="step-n">02</span><h3>Qualify the bond</h3><p>We review the case, quote a clear premium, and set collateral only if the bond size requires it.</p></div>
@@ -183,13 +183,13 @@ get_header();
 <!-- ===================== VALUE GRID SECTION ===================== -->
 <section class="section section-dark">
   <div class="container">
-    <div class="section-head reveal"><span class="eyebrow">The reputation</span><h2 style="color:#fff">Why families call us first & refer most.</h2><div class="divider"></div></div>
+    <div class="section-head reveal"><span class="eyebrow">The reputation</span><h2 style="color:#fff">Why Families Choose Freedom Way Across NC</h2><div class="divider"></div></div>
     <div class="feat-grid">
       <div class="feat-card"><h3>Live 24/7</h3><p>Real human answering in under 30 seconds, day or night. No phone tree, no after-hours voicemail.</p></div>
       <div class="feat-card"><h3>Judgment-free</h3><p>We meet families in their hardest hour with respect, discretion and steady hands.</p></div>
       <div class="feat-card"><h3>Transparent pricing</h3><p>Published premium. Written receipts. No add-on fees invented at closing.</p></div>
       <div class="feat-card"><h3>Flexible payments</h3><p>Payment plans on most bonds. We work out what actually fits your household.</p></div>
-      <div class="feat-card"><h3>Statewide coverage</h3><p>Every county, every jail. If it books in North Carolina, we can post there.</p></div>
+      <div class="feat-card"><h3>8 NC Counties</h3><p>New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin, and Cumberland counties.</p></div>
       <div class="feat-card"><h3>Court-date support</h3><p>Reminders, prep and attorney referrals for the cases that need them.</p></div>
     </div>
   </div>
@@ -198,12 +198,12 @@ get_header();
 <!-- ===================== FAQ SECTION ===================== -->
 <section class="section section-soft" id="faq">
   <div class="container">
-    <div class="section-head reveal"><span class="eyebrow">Services FAQ</span><h2>Clear answers to the questions we hear most.</h2><div class="divider"></div></div>
+    <div class="section-head reveal"><span class="eyebrow">Services FAQ</span><h2>Frequently Asked Questions About Our Bail Services</h2><div class="divider"></div></div>
     <div class="faq-wrap">
-      <div class="faq-item"><button class="faq-q">How much does a bail bond cost in North Carolina?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>North Carolina caps the premium at a percentage of the face value of the bond. We publish our rate and write it into every receipt.</p></div></div>
+      <div class="faq-item"><button class="faq-q">How much does a bail bond cost in North Carolina?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Under North Carolina law (N.C. Gen. Stat. § 58-71-95), professional bondsman premiums are capped at a maximum of 15% of the total bond amount set by the court. For example, on a $5,000 bond, the maximum legal premium is $750. The premium is non-refundable, and flexible payment plans are available.</p></div></div>
       <div class="faq-item"><button class="faq-q">Do I get the premium back after court?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>No. The premium is the non-refundable fee for us to carry the surety risk. Any collateral is returned when the case closes and the defendant has appeared.</p></div></div>
       <div class="faq-item"><button class="faq-q">What if the defendant misses court?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Call us immediately. In most cases we can help schedule a purge hearing and avoid a forfeiture — but the clock matters.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Can you post multi-county bonds in one call?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Yes. We are licensed statewide and can coordinate simultaneous bonds across facilities.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Can you post multi-county bonds in one call?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Yes. We regularly coordinate simultaneous bonds across our 8 served NC counties and facilities.</p></div></div>
     </div>
   </div>
 </section>
@@ -218,7 +218,7 @@ get_header();
       "name": "How much does a bail bond cost in North Carolina?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "North Carolina caps the premium at a percentage of the face value of the bond. We publish our rate and write it into every receipt."
+        "text": "Under North Carolina law (N.C. Gen. Stat. § 58-71-95), professional bondsman premiums are capped at a maximum of 15% of the total bond amount set by the court. On a $5,000 bond, the maximum premium is $750. Premiums are non-refundable, and payment plans are common."
       }
     },
     {
@@ -242,7 +242,7 @@ get_header();
       "name": "Can you post multi-county bonds in one call?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We are licensed statewide and can coordinate simultaneous bonds across facilities."
+        "text": "Yes. We regularly coordinate simultaneous bonds across our 8 served NC counties and facilities."
       }
     }
   ]

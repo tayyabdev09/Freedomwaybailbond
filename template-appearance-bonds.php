@@ -26,10 +26,10 @@ get_header();
 </section>
 
 <section class="stat-strip"><div class="container stat-strip-inner">
-  <div class="stat-cell"><div class="sc-num">Most common</div><div class="sc-lbl">Release type in NC courts</div></div>
+  <div class="stat-cell"><div class="sc-num">G.S. § 15A-534</div><div class="sc-lbl">NC Pretrial release statute</div></div>
   <div class="stat-cell"><div class="sc-num">8</div><div class="sc-lbl">NC counties we serve</div></div>
   <div class="stat-cell"><div class="sc-num">24/7</div><div class="sc-lbl">Live response</div></div>
-  <div class="stat-cell"><div class="sc-num">NC DOI</div><div class="sc-lbl">Licensed</div></div>
+  <div class="stat-cell"><div class="sc-num">Max 15%</div><div class="sc-lbl">Statutory cap (G.S. § 58-71-95)</div></div>
 </div></section>
 
 <section class="section" id="definition">
@@ -37,8 +37,8 @@ get_header();
     <div class="reveal">
       <span class="eyebrow">What makes it an "appearance" bond</span>
       <h2>The court cares about one thing: showing up.</h2><div class="divider"></div>
-      <p>An appearance bond's entire purpose is to guarantee the defendant returns for every court date — arraignment, motions, and trial. It's distinct from a straight cash bond (full amount paid to the court directly) because we, as a licensed surety, take on that guarantee on your behalf for a fraction of the bond's face value.</p>
-      <p>North Carolina courts can set an appearance bond as secured (backed by cash, property, or our surety) or unsecured (a written promise with no upfront payment, usually reserved for lower-risk defendants). Most bonds we write are secured through our surety license.</p>
+      <p>An appearance bond's entire purpose is to guarantee the defendant returns for every scheduled court date — arraignment, motions, and trial. Under North Carolina General Statutes § 15A-534, a judicial official must determine pretrial release through one of four conditions: a written promise to appear, an unsecured appearance bond, custody release to an authorized custodian, or a secured appearance bond.</p>
+      <p>When the court orders a secured appearance bond, Freedom Way acts as your licensed surety, posting the full bond guarantee so your family only pays a fraction of the total face value.</p>
     </div>
     <div class="glass-card reveal">
       <h3>Quick facts</h3>
@@ -78,8 +78,8 @@ get_header();
 
 <section class="section section-dark">
   <div class="container two-col">
-    <div class="reveal"><span class="eyebrow">Cost &amp; payment</span><h2 style="color:#fff">One statute-capped premium.</h2><div class="divider"></div>
-      <p style="color:#d8dbe3">North Carolina statute caps what we can charge as a percentage of the bond's face value — we quote that figure on the first call, before any paperwork moves. Payment plans are available on most bonds so the premium doesn't have to come out of one paycheck.</p>
+    <div class="reveal"><span class="eyebrow">Cost &amp; payment</span><h2 style="color:#fff">North Carolina 15% Statutory Fee Cap.</h2><div class="divider"></div>
+      <p style="color:#d8dbe3">Under North Carolina law (N.C. Gen. Stat. § 58-71-95), bail bond fees are strictly capped at a maximum of 15% of the appearance bond's face value. We quote that transparent figure on the first call, before any paperwork moves. Payment plans are available on most bonds so the premium doesn't have to come out of one paycheck.</p>
       <a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-white">Get a written quote</a>
     </div>
     <div class="glass-card glass-dark reveal">
@@ -98,12 +98,13 @@ get_header();
   <div class="container">
     <div class="section-head reveal"><span class="eyebrow">Appearance Bond FAQ</span><h2>What defendants and families ask.</h2><div class="divider"></div></div>
     <div class="faq-wrap">
+      <div class="faq-item"><button class="faq-q">How much does an appearance bond cost in North Carolina?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Under N.C. Gen. Stat. § 58-71-95, fees are strictly capped at 15% of the total bond amount. For example, a $5,000 bond costs a maximum premium of $750, with no hidden administration fees.</p></div></div>
       <div class="faq-item"><button class="faq-q">What's the difference between an appearance bond and a surety bond?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>An appearance bond is the legal instrument the court sets to guarantee court dates; a surety bond is how we — as a licensed insurance-backed company — post that appearance bond on your behalf for a premium.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Can an appearance bond be unsecured?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Yes, for lower-risk defendants a judge can set an unsecured appearance bond, meaning no payment is required unless the defendant misses court. Most bonds we write are secured.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Can an appearance bond be unsecured?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Yes, under G.S. § 15A-534, a judge or magistrate may authorize an unsecured appearance bond for lower-risk defendants where no upfront payment is needed unless court is missed. Most bonds we write are secured.</p></div></div>
       <div class="faq-item"><button class="faq-q">What happens if the bond is forfeited?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>The full bond amount becomes due unless the defendant is located and returned to custody before the forfeiture becomes final. Contact us immediately if a court date was missed.</p></div></div>
     </div>
   </div>
-</section><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between an appearance bond and a surety bond?","acceptedAnswer":{"@type":"Answer","text":"An appearance bond is the legal instrument guaranteeing court dates; a surety bond is how a licensed company posts that bond for a premium."}},{"@type":"Question","name":"Can an appearance bond be unsecured?","acceptedAnswer":{"@type":"Answer","text":"Yes, for lower-risk defendants a judge can set an unsecured appearance bond requiring no upfront payment."}},{"@type":"Question","name":"What happens if an appearance bond is forfeited?","acceptedAnswer":{"@type":"Answer","text":"The full bond amount becomes due unless the defendant is located and returned before forfeiture becomes final."}}]}</script>
+</section><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does an appearance bond cost in North Carolina?","acceptedAnswer":{"@type":"Answer","text":"Under N.C. Gen. Stat. § 58-71-95, bail fees cannot exceed 15% of the bond amount."}},{"@type":"Question","name":"What is the difference between an appearance bond and a surety bond?","acceptedAnswer":{"@type":"Answer","text":"An appearance bond is the legal instrument guaranteeing court dates; a surety bond is how a licensed company posts that bond for a premium."}},{"@type":"Question","name":"Can an appearance bond be unsecured?","acceptedAnswer":{"@type":"Answer","text":"Yes, under G.S. § 15A-534, judicial officials can set unsecured appearance bonds for qualified lower-risk defendants."}},{"@type":"Question","name":"What happens if an appearance bond is forfeited?","acceptedAnswer":{"@type":"Answer","text":"The full bond amount becomes due unless the defendant is located and returned before forfeiture becomes final."}}]}</script>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Appearance Bonds","serviceType":"Bail bond service","provider":{"@id":"<?php echo esc_url(home_url('/#organization')); ?>"},"areaServed":"North Carolina"}</script>
 

@@ -15,7 +15,7 @@ get_header();
   <div class="container lux-hero-inner">
     <span class="eyebrow reveal">DWI · Implied Consent · License Revocation</span>
     <h1 class="reveal">Traffic &amp; DWI Bail Bonds</h1>
-    <p class="reveal">DWI arrests in North Carolina come with a wrinkle most other charges don't: implied-consent law means a license can be revoked at the magistrate's office before you ever see a judge. We know that process and move fast because the clock on your license starts immediately.</p>
+    <p class="reveal">In North Carolina, impaired driving is charged as DWI (Driving While Impaired under N.C. Gen. Stat. § 20-138.1). Under state implied-consent laws (G.S. § 20-16.2 / § 20-16.5), an arrest triggers an immediate 30-day civil license revocation at the magistrate's office before you ever see a judge. We understand the legal timelines and post bond quickly so you can focus on your defense.</p>
     <div class="hero-cta">
       <a href="tel:+19107822422" class="btn btn-primary">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -30,9 +30,9 @@ get_header();
 
 <section class="stat-strip">
   <div class="container stat-strip-inner">
-    <div class="stat-cell"><div class="sc-num">30 days</div><div class="sc-lbl">Typical civil license revocation on DWI</div></div>
-    <div class="stat-cell"><div class="sc-num">10</div><div class="sc-lbl">Days to request a DMV hearing</div></div>
-    <div class="stat-cell"><div class="sc-num">24/7</div><div class="sc-lbl">Live response</div></div>
+    <div class="stat-cell"><div class="sc-num">30 days</div><div class="sc-lbl">Civil license revocation (G.S. § 20-16.5)</div></div>
+    <div class="stat-cell"><div class="sc-num">10 days</div><div class="sc-lbl">Window to contest civil revocation</div></div>
+    <div class="stat-cell"><div class="sc-num">Max 15%</div><div class="sc-lbl">Statutory fee cap (G.S. § 58-71-95)</div></div>
     <div class="stat-cell"><div class="sc-num">8</div><div class="sc-lbl">NC counties covered</div></div>
   </div>
 </section>
@@ -75,8 +75,8 @@ get_header();
 
 <section class="section section-dark">
   <div class="container">
-    <div class="section-head reveal"><span class="eyebrow" style="color:#fff">Cost for a DWI bond</span><h2 style="color:#fff">The same statute-capped premium.</h2><div class="divider"></div>
-      <p style="color:#d8dbe3">DWI bonds are priced the same way every other bond is — a state-capped percentage of the bond amount the magistrate sets, which can run higher for repeat offenses or aggravating factors. We give you the figure on the phone, before anything is signed, and can structure a payment plan.</p>
+    <div class="section-head reveal"><span class="eyebrow" style="color:#fff">Cost for a DWI bond</span><h2 style="color:#fff">North Carolina 15% Statutory Fee Cap.</h2><div class="divider"></div>
+      <p style="color:#d8dbe3">Under North Carolina law (N.C. Gen. Stat. § 58-71-95), bail bond fees are strictly capped at a maximum of 15% of the total bond amount set by the magistrate. For example, on a $3,000 DWI bond, the maximum legal premium is $450. We give you transparent pricing upfront, with zero surprise fees and flexible payment plans available.</p>
       <a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>" class="btn btn-white">Get a written quote</a>
     </div>
   </div>
@@ -86,12 +86,12 @@ get_header();
   <div class="container">
     <div class="section-head reveal"><span class="eyebrow">DWI &amp; Traffic Bond FAQ</span><h2>Common questions after a traffic arrest.</h2><div class="divider"></div></div>
     <div class="faq-wrap">
-      <div class="faq-item"><button class="faq-q">Does a DWI arrest revoke my license immediately?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>North Carolina's implied consent law can trigger a civil revocation at the magistrate's office, separate from the criminal case — this can happen before you see a judge.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Can I still drive after a DWI bond is posted?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>That depends on the civil revocation and any limited-driving-privilege order — this is a question for an attorney, and we can point you toward one.</p></div></div>
-      <div class="faq-item"><button class="faq-q">Does a repeat DWI cost more to bond?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>The bond amount itself is usually set higher by the magistrate for repeat offenses, which means the premium (a percentage of that amount) is higher too.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Does a DWI arrest revoke my license immediately?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>North Carolina's implied consent law (N.C. Gen. Stat. § 20-16.5) triggers an immediate 30-day civil license revocation at the magistrate's office, separate from the criminal case — this occurs before you ever see a trial judge.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Can I still drive after a DWI bond is posted?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>That depends on the civil revocation and whether you qualify for a limited driving privilege through the court — this is a question for your attorney, and we can point you toward experienced local traffic defense counsel.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Does a repeat DWI cost more to bond?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>While magistrates typically set higher bond amounts for repeat offenses or gross aggravating factors, our bail fee is strictly capped at a maximum of 15% under N.C. Gen. Stat. § 58-71-95 with no hidden surcharges.</p></div></div>
     </div>
   </div>
-</section><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does a DWI arrest revoke my license immediately in NC?","acceptedAnswer":{"@type":"Answer","text":"North Carolina's implied consent law can trigger a civil revocation at the magistrate's office, separate from and before the criminal case."}},{"@type":"Question","name":"Can I drive after a DWI bond is posted?","acceptedAnswer":{"@type":"Answer","text":"This depends on the civil revocation and any limited driving privilege order, which is a question for an attorney."}},{"@type":"Question","name":"Does a repeat DWI cost more to bond?","acceptedAnswer":{"@type":"Answer","text":"The bond amount is usually set higher by the magistrate for repeat offenses, so the premium is higher as well."}}]}</script>
+</section><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does a DWI arrest revoke my license immediately in NC?","acceptedAnswer":{"@type":"Answer","text":"North Carolina implied consent law (N.C. Gen. Stat. § 20-16.5) triggers an immediate 30-day civil license revocation at the magistrate office before any trial court appearance."}},{"@type":"Question","name":"Can I drive after a DWI bond is posted?","acceptedAnswer":{"@type":"Answer","text":"This depends on the civil revocation and whether a limited driving privilege order is granted by the court."}},{"@type":"Question","name":"Does a repeat DWI cost more to bond?","acceptedAnswer":{"@type":"Answer","text":"Magistrates may set higher bond totals, but the bail premium is strictly capped at 15% under N.C. Gen. Stat. § 58-71-95."}}]}</script>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Traffic & DWI Bail Bonds","serviceType":"Bail bond service","provider":{"@id":"<?php echo esc_url(home_url('/#organization')); ?>"},"areaServed":"North Carolina"}</script>
 

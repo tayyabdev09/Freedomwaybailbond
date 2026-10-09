@@ -32,7 +32,7 @@ get_header(); ?>
   <div class="container stat-strip-inner">
     <div class="stat-cell"><div class="sc-num">15+</div><div class="sc-lbl">Years in service</div></div>
     <div class="stat-cell"><div class="sc-num">12,500+</div><div class="sc-lbl">Clients helped</div></div>
-    <div class="stat-cell"><div class="sc-num">100</div><div class="sc-lbl">NC counties</div></div>
+    <div class="stat-cell"><div class="sc-num">8</div><div class="sc-lbl">NC counties served</div></div>
     <div class="stat-cell"><div class="sc-num">4.9★</div><div class="sc-lbl">312+ reviews</div></div>
   </div>
 </section>
@@ -123,7 +123,7 @@ get_header(); ?>
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">05 · Coverage</span>
-      <h2>Local roots. Statewide reach.</h2>
+      <h2>Counties We Serve Across North Carolina</h2>
       <div class="divider"></div>
     </div>
     <div class="area-mini-grid">
@@ -173,13 +173,13 @@ get_header(); ?>
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">About FAQ</span>
-      <h2>A few more questions we often hear.</h2>
+      <h2>Frequently Asked Questions About Freedom Way</h2>
       <div class="divider"></div>
     </div>
     <div class="faq-wrap">
       <div class="faq-item">
         <button class="faq-q">How long has Freedom Way been in business?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button>
-        <div class="faq-a"><p>We have posted bonds across North Carolina for 15+ years, starting in Wilmington and now serving every county in the state.</p></div>
+        <div class="faq-a"><p>We have posted bonds across North Carolina for 15+ years, starting in Wilmington and now serving 8 core counties across Eastern and Central NC.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">Is Freedom Way family-owned?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button>

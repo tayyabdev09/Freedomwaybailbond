@@ -5,7 +5,7 @@
   <div class="container hero-inner">
     <div class="reveal">
       <span class="eyebrow">Licensed · Bonded · North Carolina</span>
-      <h1 style="margin-top:18px">24/7 Bail Bonds in <span class="accent">Wilmington</span> & Across Eastern North Carolina</h1>
+      <h1 style="margin-top:18px">24/7 Bail Bonds in <span class="accent">Wilmington</span> & 8 North Carolina Counties</h1>
       <p class="lead">When every minute matters, our licensed bondsmen answer immediately. Fast paperwork, transparent process, and dignified, confidential support from arrest to court date.</p>
       <div class="hero-cta">
         <a href="tel:+19107822422" class="btn btn-primary">
@@ -52,14 +52,14 @@
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> NC Licensed Bondsmen</span>
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Open 24 Hours · 7 Days</span>
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Confidential Service</span>
-    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/></svg> Statewide North Carolina</span>
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/></svg> Serving 8 NC Counties</span>
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Transparent Process</span>
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Flexible Payment Plans</span>
     <!-- duplicated loop fallback -->
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> NC Licensed Bondsmen</span>
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Open 24 Hours · 7 Days</span>
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Confidential Service</span>
-    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/></svg> Statewide North Carolina</span>
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/></svg> Serving 8 NC Counties</span>
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Transparent Process</span>
     <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Flexible Payment Plans</span>
   </div>
@@ -113,7 +113,7 @@
       <p>Freedom Way Bail Bonds was founded on a single principle: the moment someone is arrested, their family deserves a calm voice, a clear plan, and immediate action. We are a licensed North Carolina bail bond agency built by veteran bondsmen who understand the courts, the counties, and the pressure our clients feel.</p>
       <ul class="about-list">
         <li><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> NC Department of Insurance licensed</li>
-        <li><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Statewide magistrate & jail relationships</li>
+        <li><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Direct relationships with local NC magistrates &amp; jails</li>
         <li><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Confidential, judgment-free service</li>
         <li><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Flexible, no-surprise payment plans</li>
       </ul>
@@ -129,7 +129,7 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Our Services</span>
-      <h2 style="margin-top:16px">Every bond, handled with expertise and urgency.</h2>
+      <h2 style="margin-top:16px">Bail Bond Services We Post Across 8 NC Counties</h2>
       <div class="divider"></div>
       <p>From a routine traffic bond to a complex domestic case, our licensed agents write the right bond, the right way the first time.</p>
     </div>
@@ -186,7 +186,7 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">How It Works</span>
-      <h2 style="margin-top:16px">Four calm steps between the call and the release.</h2>
+      <h2 style="margin-top:16px">How the North Carolina Bail Process Works in 4 Steps</h2>
       <div class="divider"></div>
       <p>We remove the guesswork. From your first call to your court date, you always know the next step.</p>
     </div>
@@ -220,7 +220,7 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Why Freedom Way</span>
-      <h2 style="margin-top:16px">The reputation clients call first and refer most.</h2>
+      <h2 style="margin-top:16px">Why Families Choose Freedom Way Across North Carolina</h2>
       <div class="divider"></div>
       <p>Fifteen years of jail visits, magistrate hearings, and 3 a.m. phone calls have built a standard our clients feel from the very first minute.</p>
     </div>
@@ -247,8 +247,8 @@
       </div>
       <div class="why-card reveal">
         <div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-        <h3>Statewide Coverage</h3>
-        <p>Coastal, central and inland North Carolina we know the courts, the clerks, and the road.</p>
+        <h3>8 NC Counties Covered</h3>
+        <p>New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin, and Cumberland — we know the courts, the clerks, and the jails.</p>
       </div>
       <div class="why-card reveal">
         <div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
@@ -268,7 +268,7 @@
     
     <div class="reveal">
       <span class="eyebrow">Areas We Serve</span>
-      <h2 style="margin-top:16px">Local roots. Statewide reach.</h2>
+      <h2 style="margin-top:16px">Counties &amp; Detention Facilities We Serve Across NC</h2>
       <p>From the coast at Wilmington to the capital in Raleigh, our bondsmen know the jails, the magistrates and the fastest way home for the people who love you.</p>
       
       <div class="area-tags">
@@ -294,7 +294,7 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Client Stories</span>
-      <h2 style="margin-top:16px">Real people. Real relief. Real reviews.</h2>
+      <h2 style="margin-top:16px">Verified Client Reviews &amp; Bail Bonds Experiences</h2>
       <div class="divider"></div>
       <p>The kind of trust you build one phone call, one release, one family at a time.</p>
     </div>
@@ -332,10 +332,14 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Frequently Asked</span>
-      <h2 style="margin-top:16px">Clear answers when clarity matters most.</h2>
+      <h2 style="margin-top:16px">Frequently Asked Questions About NC Bail Bonds</h2>
       <div class="divider"></div>
     </div>
     <div class="faq-wrap">
+      <div class="faq-item reveal">
+        <button class="faq-q">How much does a bail bond cost in North Carolina? <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Under North Carolina law (N.C. Gen. Stat. § 58-71-95), bail bond fees are legally capped at a maximum of 15% of the total bond amount. For example, if a magistrate sets bond at $5,000, the maximum fee is $750. We provide clear pricing upfront with zero hidden charges and flexible payment plans.</div></div>
+      </div>
       <div class="faq-item reveal">
         <button class="faq-q">How fast can Freedom Way get someone released? <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
         <div class="faq-a"><div class="faq-a-inner">In most North Carolina counties, our licensed agents begin paperwork within minutes of your call. Typical release times range from two to eight hours depending on the facility and the magistrate schedule.</div></div>
@@ -354,11 +358,67 @@
       </div>
       <div class="faq-item reveal">
         <button class="faq-q">Which North Carolina counties do you cover? <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button>
-        <div class="faq-a"><div class="faq-a-inner">We serve New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin and Cumberland counties among others including Wilmington, Raleigh, Fayetteville, Burgaw, Bolivia, Whiteville, Clinton and Kenansville. See our full list on the <a href="<?php echo esc_url(home_url('/areas-we-serve/')); ?>" style="color:var(--red-600);font-weight:600">Areas We Serve</a> page.</div></div>
+        <div class="faq-a"><div class="faq-a-inner">We serve 8 North Carolina counties: New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin, and Cumberland — including Wilmington, Raleigh, Fayetteville, Burgaw, Bolivia, Whiteville, Clinton, and Kenansville. See our full coverage on the <a href="<?php echo esc_url(home_url('/areas-we-serve/')); ?>" style="color:var(--red-600);font-weight:600">Areas We Serve</a> page.</div></div>
       </div>
     </div>
   </div>
 </section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a bail bond cost in North Carolina?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under North Carolina law (N.C. Gen. Stat. § 58-71-95), bail bond fees are legally capped at a maximum of 15% of the total bond amount. For example, on a $5,000 bond, the maximum fee is $750."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast can Freedom Way get someone released?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most North Carolina counties, our licensed agents begin paperwork within minutes of your call. Typical release times range from two to eight hours depending on the facility and the magistrate schedule."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you really available 24 hours a day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A licensed bondsman answers every call, every hour of every day including weekends and holidays."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What information do I need when I call?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The full name of the person arrested, the jail or county they are in, and the charge if available. If you do not have all information, our bondsmen will locate the rest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer payment plans?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We build flexible, transparent payment structures around what actually fits your household with no hidden fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which North Carolina counties do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We serve 8 North Carolina counties: New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin, and Cumberland."
+      }
+    }
+  ]
+}
+</script>
 
 <!-- ===================== CTA ===================== -->
 <?php

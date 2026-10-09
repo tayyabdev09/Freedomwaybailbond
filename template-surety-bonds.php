@@ -28,7 +28,7 @@ get_header();
 <section class="stat-strip"><div class="container stat-strip-inner">
   <div class="stat-cell"><div class="sc-num">A-rated</div><div class="sc-lbl">National surety backing</div></div>
   <div class="stat-cell"><div class="sc-num">NC DOI</div><div class="sc-lbl">Licensed &amp; regulated</div></div>
-  <div class="stat-cell"><div class="sc-num">Capped</div><div class="sc-lbl">Premium by state statute</div></div>
+  <div class="stat-cell"><div class="sc-num">Max 15%</div><div class="sc-lbl">Statutory NC cap (G.S. § 58-71-95)</div></div>
   <div class="stat-cell"><div class="sc-num">24/7</div><div class="sc-lbl">Live response</div></div>
 </div></section>
 
@@ -45,7 +45,7 @@ get_header();
       <ul class="fact-list">
         <li><span>Regulator</span><strong>NC Department of Insurance</strong></li>
         <li><span>Surety rating</span><strong>A-rated national companies</strong></li>
-        <li><span>Premium cap</span><strong>Set by NC statute</strong></li>
+        <li><span>Premium cap</span><strong>15% max (N.C. Gen. Stat. § 58-71-95)</strong></li>
         <li><span>Receipts</span><strong>Written for every transaction</strong></li>
       </ul>
       <a href="tel:+19107822422" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px">Speak to a bondsman</a>
@@ -79,12 +79,13 @@ get_header();
   <div class="container">
     <div class="section-head reveal"><span class="eyebrow" style="color:#fff">Surety Bond FAQ</span><h2 style="color:#fff">How the insurance side works.</h2><div class="divider"></div></div>
     <div class="faq-wrap">
+      <div class="faq-item"><button class="faq-q">How much does a surety bond cost under North Carolina law?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Under N.C. Gen. Stat. § 58-71-95(5), the maximum legal fee a licensed bail bondsman may charge is capped at 15% of the bond amount. For example, a $10,000 bond requires a maximum fee of $1,500. This non-refundable premium allows our surety to guarantee the full bond to the court.</p></div></div>
       <div class="faq-item"><button class="faq-q">Is a surety bond the same as an appearance bond?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>Related but distinct — the appearance bond is what the court sets; the surety bond is the insurance mechanism we use to post it on your behalf.</p></div></div>
       <div class="faq-item"><button class="faq-q">Who actually pays if the defendant doesn't show up?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>The surety company that backs the bond is on the hook to the court, which is why underwriting — and sometimes collateral — matters before we post.</p></div></div>
       <div class="faq-item"><button class="faq-q">Do you always require collateral?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a"><p>No — most smaller bonds only require the premium. Larger bonds or higher-risk cases may need collateral, which we explain plainly before any paperwork.</p></div></div>
     </div>
   </div>
-</section><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is a surety bond the same as an appearance bond?","acceptedAnswer":{"@type":"Answer","text":"Related but distinct: the appearance bond is what the court sets, and the surety bond is the insurance mechanism used to post it."}},{"@type":"Question","name":"Who pays if the defendant does not show up on a surety bond?","acceptedAnswer":{"@type":"Answer","text":"The surety company backing the bond is liable to the court, which is why underwriting and sometimes collateral matter before posting."}},{"@type":"Question","name":"Does Freedom Way always require collateral for a surety bond?","acceptedAnswer":{"@type":"Answer","text":"No, most smaller bonds only require the premium; larger or higher-risk bonds may need collateral."}}]}</script>
+</section><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does a surety bond cost under North Carolina law?","acceptedAnswer":{"@type":"Answer","text":"Under N.C. Gen. Stat. § 58-71-95(5), fees are capped at a maximum of 15% of the bond amount."}},{"@type":"Question","name":"Is a surety bond the same as an appearance bond?","acceptedAnswer":{"@type":"Answer","text":"Related but distinct: the appearance bond is what the court sets, and the surety bond is the insurance mechanism used to post it."}},{"@type":"Question","name":"Who pays if the defendant does not show up on a surety bond?","acceptedAnswer":{"@type":"Answer","text":"The surety company backing the bond is liable to the court, which is why underwriting and sometimes collateral matter before posting."}},{"@type":"Question","name":"Does Freedom Way always require collateral for a surety bond?","acceptedAnswer":{"@type":"Answer","text":"No, most smaller bonds only require the premium; larger or higher-risk bonds may need collateral."}}]}</script>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Surety Bail Bonds","serviceType":"Bail bond service","provider":{"@id":"<?php echo esc_url(home_url('/#organization')); ?>"},"areaServed":"North Carolina"}</script>
 
