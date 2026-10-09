@@ -75,6 +75,8 @@ get_header();
   </div>
 </section>
 
+<?php get_template_part( 'template-parts/service', 'locations', array( 'service_name' => '24/7 Emergency Bail Bonds' ) ); ?>
+
 <section class="section section-soft" id="faq">
   <div class="container">
     <div class="section-head reveal"><span class="eyebrow">24/7 Response FAQ</span><h2>What people ask about after-hours calls.</h2><div class="divider"></div></div>

@@ -75,6 +75,8 @@ get_header();
   </div>
 </section>
 
+<?php get_template_part( 'template-parts/service', 'locations', array( 'service_name' => 'Surety Bail Bonds' ) ); ?>
+
 <section class="section section-dark" id="faq">
   <div class="container">
     <div class="section-head reveal"><span class="eyebrow" style="color:#fff">Surety Bond FAQ</span><h2 style="color:#fff">How the insurance side works.</h2><div class="divider"></div></div>

@@ -94,3 +94,33 @@ function freedom_way_restrict_users_rest_route( $result, $server, $request ) {
     return $result;
 }
 add_filter( 'rest_pre_dispatch', 'freedom_way_restrict_users_rest_route', 10, 3 );
+
+/**
+ * Audit Phase 3: Breadcrumbs UI and Schema Include
+ */
+require_once get_template_directory() . '/inc/breadcrumbs.php';
+
+/**
+ * Audit Phase 4 Fix: 301 redirects for out-of-area (Charlotte/Unionville) and duplicate blog posts
+ */
+function freedom_way_audit_redirects() {
+    if ( is_single() ) {
+        global $post;
+        if ( ! $post ) {
+            return;
+        }
+
+        $redirects = array(
+            'how-to-secure-a-bail-bondsman-for-domestic-violence-in-charlotte-nc' => home_url( '/domestic-violence-bail-bonds/' ),
+            '24-7-assistance-for-bail-bonds-in-unionville-nc'                     => home_url( '/24-7-bail-bonds/' ),
+            'how-to-revoke-a-bond'                                                => home_url( '/what-happens-when-bond-is-revoked/' ),
+            'hello-world'                                                         => home_url( '/blog/' ),
+        );
+
+        if ( isset( $redirects[ $post->post_name ] ) ) {
+            wp_safe_redirect( $redirects[ $post->post_name ], 301 );
+            exit;
+        }
+    }
+}
+add_action( 'template_redirect', 'freedom_way_audit_redirects' );

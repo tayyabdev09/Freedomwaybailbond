@@ -94,6 +94,8 @@ get_header();
   </div>
 </section>
 
+<?php get_template_part( 'template-parts/service', 'locations', array( 'service_name' => 'Appearance Bail Bonds' ) ); ?>
+
 <section class="section section-soft" id="faq">
   <div class="container">
     <div class="section-head reveal"><span class="eyebrow">Appearance Bond FAQ</span><h2>What defendants and families ask.</h2><div class="divider"></div></div>

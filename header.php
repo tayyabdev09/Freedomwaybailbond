@@ -269,3 +269,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </div>
+
+<?php
+// Audit Phase 3: Breadcrumb Navigation & BreadcrumbList Schema
+if ( function_exists( 'freedom_way_breadcrumbs' ) ) {
+    freedom_way_breadcrumbs();
+}
+?>

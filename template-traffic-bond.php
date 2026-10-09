@@ -82,6 +82,8 @@ get_header();
   </div>
 </section>
 
+<?php get_template_part( 'template-parts/service', 'locations', array( 'service_name' => 'Traffic & DWI Bail Bonds' ) ); ?>
+
 <section class="section section-soft" id="faq">
   <div class="container">
     <div class="section-head reveal"><span class="eyebrow">DWI &amp; Traffic Bond FAQ</span><h2>Common questions after a traffic arrest.</h2><div class="divider"></div></div>
