@@ -17,7 +17,7 @@ get_header();
     <h1 class="reveal">One call. <span class="accent">Any hour.</span> Any county.</h1>
     <p class="reveal">A licensed North Carolina bondsman is standing by. Call, email, or send the form below — whichever feels easiest right now.</p>
     <div class="lux-hero-cta reveal">
-      <a href="tel:+9107822422" class="btn btn-primary">Call 910-782-2422</a>
+      <a href="tel:+19107822422" class="btn btn-primary">Call 910-782-2422</a>
       <a href="mailto:freedomwaybailbonds@gmail.com" class="btn btn-white-outline">Email us</a>
     </div>
   </div>
@@ -44,17 +44,17 @@ get_header();
       <div class="glass-card">
         <h3>Reach us directly</h3>
         <ul class="fact-list">
-          <li><span>Phone</span><strong><a href="tel:+9107822422">910-782-2422</a></strong></li>
+          <li><span>Phone</span><strong><a href="tel:+19107822422">910-782-2422</a></strong></li>
           <li><span>Email</span><strong><a href="mailto:freedomwaybailbonds@gmail.com">freedomwaybailbonds@gmail.com</a></strong></li>
           <li><span>Hours</span><strong>Open 24 / 7 / 365</strong></li>
-          <li><span>Coverage</span><strong>All 100 NC counties</strong></li>
+          <li><span>Coverage</span><strong>Wilmington & 7 NC counties</strong></li>
           <li><span>Languages</span><strong>English &amp; Spanish</strong></li>
         </ul>
       </div>
       <div class="glass-card" style="margin-top:20px">
         <h3>Fastest to a bondsman</h3>
         <p style="margin:0">Call. Every time. The phone puts a licensed bondsman on the line in under a minute, quotes a firm premium, and starts the paperwork before you hang up.</p>
-        <a href="tel:+9107822422" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:14px">Call now</a>
+        <a href="tel:+19107822422" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:14px">Call now</a>
       </div>
     </div>
 

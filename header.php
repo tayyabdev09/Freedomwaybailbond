@@ -5,8 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#c8102e" />
     <?php wp_head(); ?>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "@id": "<?php echo esc_url( home_url( '/#organization' ) ); ?>",
+      "name": "Freedom Way Bail Bonds",
+      "url": "<?php echo esc_url( home_url( '/' ) ); ?>",
+      "logo": "<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo.webp' ); ?>",
+      "telephone": "+1-910-782-2422",
+      "email": "freedomwaybailbonds@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Wilmington",
+        "addressRegion": "NC",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }],
+      "areaServed": [
+        {"@type": "AdministrativeArea", "name": "New Hanover County, NC"},
+        {"@type": "AdministrativeArea", "name": "Pender County, NC"},
+        {"@type": "AdministrativeArea", "name": "Brunswick County, NC"},
+        {"@type": "AdministrativeArea", "name": "Wake County, NC"},
+        {"@type": "AdministrativeArea", "name": "Columbus County, NC"},
+        {"@type": "AdministrativeArea", "name": "Sampson County, NC"},
+        {"@type": "AdministrativeArea", "name": "Duplin County, NC"},
+        {"@type": "AdministrativeArea", "name": "Cumberland County, NC"}
+      ]
+    }
+    <!-- TODO(SMT): confirm/insert real streetAddress + postalCode once the owner confirms the public business address (audit flags an address mismatch across citations — see report Section 21/13). sameAs (Facebook/Instagram/Yelp/GBP) also needs the owner's real profile URLs added here. -->
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MZ2V883');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body <?php body_class(); ?>>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZ2V883"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <?php wp_body_open(); ?>
 
 <!-- ===================== TOPBAR ===================== -->
@@ -16,7 +64,7 @@
       <span class="tb-item"><span class="live"></span> Available 24/7 — call anytime</span>
     </div>
     <div class="tb-right">
-      <a class="tb-item" href="tel:+9107822422">
+      <a class="tb-item" href="tel:+19107822422">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         910-782-2422
       </a>
@@ -152,7 +200,7 @@
     </nav>
 
     <div class="nav-cta">
-      <a class="call" href="tel:+9107822422">
+      <a class="call" href="tel:+19107822422">
         <span class="ring">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         </span>
@@ -183,7 +231,7 @@
       </button>
       <div class="msub" id="msvc">
         <a class="<?php echo is_page('traffic-bond-services') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">Traffic Bail Bonds</a>
-        <a class="<?php echo is_page('domestic-violence-bail-bonds) ? \'active\' : \'\';') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/domestic-violence-bail-bonds/')); ?>">Domestic Violence Bail Bonds</a>
+        <a class="<?php echo is_page('domestic-violence-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/domestic-violence-bail-bonds/')); ?>">Domestic Violence Bail Bonds</a>
         <a class="<?php echo is_page('appearance-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/appearance-bonds/')); ?>">Appearance Bonds</a>
         <a class="<?php echo is_page('surety-bond-nc') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/surety-bond-nc/')); ?>">Surety Bonds</a>
         <a class="<?php echo is_page('24-7-bail-bonds') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/24-7-bail-bonds/')); ?>">24/7 Bail Bonds</a>
@@ -207,7 +255,7 @@
       <a class="nl <?php echo $is_blog_active ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/blog/')); ?>">Blog</a>
       <a class="nl <?php echo is_page('contact-us') ? 'active' : ''; ?>" href="<?php echo esc_url(home_url('/contact-us/')); ?>">Contact Us</a>
 
-      <a href="tel:+9107822422" class="btn btn-primary" style="justify-content:center;margin-top:14px">Call 910-782-2422</a>
+      <a href="tel:+19107822422" class="btn btn-primary" style="justify-content:center;margin-top:14px">Call 910-782-2422</a>
     </div>
   </div>
 </div>

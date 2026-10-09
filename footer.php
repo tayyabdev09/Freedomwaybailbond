@@ -31,16 +31,16 @@
         <ul class="f-list">
           <li><a href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">Traffic Bail Bonds</a></li>
           <li><a href="<?php echo esc_url(home_url('/domestic-violence-bail-bonds/')); ?>">Domestic Violence Bonds</a></li>
-          <li><a href="<?php echo esc_url(home_url('/traffic-bond-services/')); ?>">Appearance Bonds</a></li>
-          <li><a href="<?php echo esc_url(home_url('/appearance-bonds/')); ?>">Surety Bonds</a></li>
-          <li><a href="<?php echo esc_url(home_url('/surety-bond-nc/')); ?>">24/7 Bail Bonds</a></li>
+          <li><a href="<?php echo esc_url(home_url('/appearance-bonds/')); ?>">Appearance Bonds</a></li>
+          <li><a href="<?php echo esc_url(home_url('/surety-bond-nc/')); ?>">Surety Bonds</a></li>
+          <li><a href="<?php echo esc_url(home_url('/24-7-bail-bonds/')); ?>">24/7 Bail Bonds</a></li>
         </ul>
       </div>
 
       <div>
         <h4>Get In Touch</h4>
         <ul class="f-list f-contact">
-          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span> <a href="tel:+9107822422">910-782-2422</a></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span> <a href="tel:+19107822422">910-782-2422</a></li>
           <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span> <a href="mailto:freedomwaybailbonds@gmail.com">freedomwaybailbonds@gmail.com</a></li>
           <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span> Serving all of North Carolina</li>
           <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span> Open 24 Hours · 7 Days a Week</li>
@@ -56,7 +56,7 @@
 </footer>
 
 <a
- href="tel:+9107822422" class="sticky-call" aria-label="Call Freedom Way Bail Bonds">
+ href="tel:+19107822422" class="sticky-call" aria-label="Call Freedom Way Bail Bonds">
   
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
 

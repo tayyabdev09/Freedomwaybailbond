@@ -16,7 +16,7 @@ get_header(); ?>
     <h1 class="reveal">Fifteen years of <span class="accent">bringing families home</span> across North Carolina.</h1>
     <p class="reveal">Family-owned. State-licensed. Answered by the same team at 2 a.m. that answers at noon. This is the agency we would want on the other end of the line for our own people.</p>
     <div class="hero-cta">
-      <a href="tel:+9107822422" class="btn btn-primary">
+      <a href="tel:+19107822422" class="btn btn-primary">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         Call 910-782-2422
       </a>
@@ -44,7 +44,7 @@ get_header(); ?>
       <span class="eyebrow">01 · Our story</span>
       <h2>Built by a family, for families.</h2>
       <div class="divider"></div>
-      <p>Freedom Way Bail Bonds started in Wilmington with a single licensed bondsman and a rotary phone that never stopped ringing. Fifteen years later, the phone still doesn't stopped and it is still answered by a family that treats every caller the way we would want our own to be treated.</p>
+      <p>Freedom Way Bail Bonds started in Wilmington with a single licensed bondsman and a rotary phone that never stopped ringing. Fifteen years later, the phone still hasn't stopped, and it's still answered by a family that treats every caller the way we would want our own to be treated.</p>
       <p>What began at the New Hanover County Detention Facility now stretches from the coast to the state capital and every rural county in between. What has not changed: the promise that when you call, a real person picks up, quotes a real price, and posts a real bond.</p>
     </div>
     <div class="reveal">
@@ -108,7 +108,7 @@ get_header(); ?>
       <span class="eyebrow">04 · The team</span>
       <h2>Licensed bondsmen. Local roots.</h2>
       <div class="divider"></div>
-      <p>Every bondsman on our roster is licensed by the North Carolina Department of Insurance. Between them they have posted bonds in every one of the state's 100 counties. Off the phone, they are neighbors, parents, coaches and church members. On the phone, they are the calmest person you'll speak to all week.</p>
+      <p>Every bondsman on our roster is licensed by the North Carolina Department of Insurance. Between them they have posted bonds across New Hanover, Pender, Brunswick, Wake, Columbus, Sampson, Duplin and Cumberland counties. Off the phone, they are neighbors, parents, coaches and church members. On the phone, they are the calmest person you'll speak to all week.</p>
       <ul class="check-list">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>NC DOI-licensed team</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polyline points="20 6 9 17 4 12"/></svg><span>Background-checked and continuously trained</span></li>

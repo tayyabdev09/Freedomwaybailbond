@@ -5,10 +5,10 @@
   <div class="container hero-inner">
     <div class="reveal">
       <span class="eyebrow">Licensed · Bonded · North Carolina</span>
-      <h1 style="margin-top:18px">Freedom is one call away <span class="accent">24/7 bail bonds</span> across North Carolina.</h1>
+      <h1 style="margin-top:18px">24/7 Bail Bonds in <span class="accent">Wilmington</span> & Across Eastern North Carolina</h1>
       <p class="lead">When every minute matters, our licensed bondsmen answer immediately. Fast paperwork, transparent process, and dignified, confidential support from arrest to court date.</p>
       <div class="hero-cta">
-        <a href="tel:+9107822422" class="btn btn-primary">
+        <a href="tel:+19107822422" class="btn btn-primary">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           Call 910-782-2422
         </a>
@@ -25,7 +25,7 @@
 
     <div class="hero-visual reveal">
       <div class="hv-ring"></div>
-      <div class="hv-core"><img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo.webp'); ?>" alt="Freedom Way Bail Bonds emblem"/></div>
+      <div class="hv-core"><img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo.webp'); ?>" alt="Freedom Way Bail Bonds emblem" width="160" height="160" loading="eager"/></div>
       <div class="hv-chip c1">
         <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
         <div>Answered in 30s<small>Average call pick-up</small></div>
@@ -70,24 +70,25 @@
   <div class="container">
     <div class="stats-grid">
       <div class="stat-card reveal">
-        <div class="stat-num"><span data-count="15">0</span><sup>+</sup></div>
+        <div class="stat-num"><span data-count="15">15</span><sup>+</sup></div>
         <div class="stat-label">Years of Service</div>
         <div class="stat-sub">Trusted across North Carolina</div>
       </div>
       <div class="stat-card reveal">
-        <div class="stat-num"><span data-count="12500">0</span><sup>+</sup></div>
+        <div class="stat-num"><span data-count="12500">12500</span><sup>+</sup></div>
         <div class="stat-label">Clients Represented</div>
         <div class="stat-sub">Individuals & families helped</div>
       </div>
       <div class="stat-card reveal">
-        <div class="stat-num"><span data-count="24">0</span>/7</div>
+        <div class="stat-num"><span data-count="24">24</span>/7</div>
         <div class="stat-label">Availability</div>
         <div class="stat-sub">Live agent, every hour</div>
       </div>
       <div class="stat-card reveal">
-        <div class="stat-num"><span data-count="4.9">0</span><sup>★</sup></div>
+        <div class="stat-num"><span data-count="4.9">4.9</span><sup>★</sup></div>
         <div class="stat-label">Client Rating</div>
         <div class="stat-sub">Based on 312+ reviews</div>
+        <!-- TODO(SMT): audit flags "4.9★ / 312+ reviews" and "12,500+ clients" above as unverifiable (Yahoo Local shows 1 review). Replace with your real, current Google rating + link, or remove the numbers, before this goes live. -->
       </div>
     </div>
   </div>
@@ -116,7 +117,7 @@
         <li><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Confidential, judgment-free service</li>
         <li><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Flexible, no-surprise payment plans</li>
       </ul>
-      <a href="tel:+9107822422" class="btn btn-dark">Speak With a Bondsman
+      <a href="tel:+19107822422" class="btn btn-dark">Speak With a Bondsman
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
     </div>
@@ -174,7 +175,7 @@
         <div class="svc-icon" style="background:#fff;color:var(--red-600)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
         <h3 style="color:#fff">Not sure what you need?</h3>
         <p style="color:#c8ccd4">Call us. We'll ask a few questions, tell you exactly what bond applies, and start the paperwork on the same call.</p>
-        <a href="tel:+9107822422" class="btn btn-primary" style="margin-top:18px">Call 910-782-2422</a>
+        <a href="tel:+19107822422" class="btn btn-primary" style="margin-top:18px">Call 910-782-2422</a>
       </article>
     </div>
   </div>

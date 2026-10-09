@@ -12,7 +12,7 @@ get_header();
     <h1 class="reveal" style="margin-top:16px">Bringing families home from coast to the capital.</h1>
     <p class="reveal">Freedom Way Bail Bonds serves eight core North Carolina cities and every county in between. Local knowledge. Statewide coverage. One number to remember.</p>
     <div style="margin-top:26px" class="reveal">
-      <a href="tel:+9107822422" class="btn btn-primary">
+      <a href="tel:+19107822422" class="btn btn-primary">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         Call 910-782-2422
       </a>
@@ -27,7 +27,7 @@ get_header();
       <span class="eyebrow reveal">AREAS WE SERVE</span>
       <h2 style="margin-top:16px">Fast, expert bond services across all our local communities</h2>
       <div class="divider"></div>
-      <p>From the coast in Wilmington to the capital in Raleigh, we serve all 100 counties. Whether you are in Burgaw, Bolivia, Whiteville, Clinton, or Kenansville, our local agents are ready. We provide fast bail bond services in these primary cities and all their surrounding rural areas, 24 hours a day.</p>
+      <p>From the coast in Wilmington to the capital in Raleigh, we serve 8 counties across Eastern and Central North Carolina. Whether you are in Burgaw, Bolivia, Whiteville, Clinton, or Kenansville, our local agents are ready. We provide fast bail bond services in these primary cities and all their surrounding rural areas, 24 hours a day.</p>
     </div>
     
     <div class="area-cards">
